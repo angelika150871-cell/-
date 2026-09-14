@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-labelledby="heroPetsTitle">
+  <title id="heroPetsTitle">Пес і кіт виглядають крізь розірвану поверхню</title>
+
+  <!-- torn paper surface -->
+  <path fill="#F5EFE2" d="
+    M 90 40
+    L 560 40
+    Q 600 40 600 80
+    L 600 540
+    Q 600 580 560 580
+    L 210 580
+    L 232 552 L 196 540 L 224 512 L 186 498
+    L 216 470 L 176 452 L 208 424
+    L 168 402 L 200 372 L 158 348
+    L 190 318 L 150 292 L 182 262
+    L 140 236 L 172 206 L 128 182
+    L 160 150 L 118 126 L 150 96
+    L 108 76 L 90 40
+    Z" />
+
+  <!-- soft inner shadow edge for torn feel -->
+  <path fill="none" stroke="#C8633F" stroke-width="3" stroke-linejoin="round" stroke-opacity="0.18" d="
+    M 210 580
+    L 232 552 L 196 540 L 224 512 L 186 498
+    L 216 470 L 176 452 L 208 424
+    L 168 402 L 200 372 L 158 348
+    L 190 318 L 150 292 L 182 262
+    L 140 236 L 172 206 L 128 182
+    L 160 150 L 118 126 L 150 96
+    L 108 76 L 90 40" />
+
+  <!-- ===================== DOG (left) ===================== -->
+  <g>
+    <!-- ears -->
+    <path fill="#C8633F" d="M228 250 Q170 210 178 300 Q182 360 246 348 Z"/>
+    <path fill="#C8633F" d="M332 250 Q392 208 386 300 Q384 360 320 348 Z"/>
+
+    <!-- head -->
+    <ellipse cx="280" cy="360" rx="118" ry="112" fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4"/>
+
+    <!-- snout -->
+    <ellipse cx="280" cy="404" rx="58" ry="42" fill="#FFFFFF" stroke="#2A2A2A" stroke-width="4"/>
+
+    <!-- nose -->
+    <ellipse cx="280" cy="384" rx="16" ry="12" fill="#2A2A2A"/>
+
+    <!-- mouth -->
+    <path fill="none" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round" d="M280 396 v14 M280 410 q-16 14 -32 6 M280 410 q16 14 32 6"/>
+
+    <!-- eyes -->
+    <circle cx="238" cy="348" r="9" fill="#2A2A2A"/>
+    <circle cx="322" cy="348" r="9" fill="#2A2A2A"/>
+
+    <!-- eye highlight -->
+    <circle cx="241" cy="345" r="2.6" fill="#F5EFE2"/>
+    <circle cx="325" cy="345" r="2.6" fill="#F5EFE2"/>
+
+    <!-- cheeks patch -->
+    <path fill="#C8633F" fill-opacity="0.35" d="M198 356 q-14 26 10 40 q22 10 24-16 Z"/>
+    <path fill="#C8633F" fill-opacity="0.35" d="M362 356 q14 26 -10 40 q-22 10 -24-16 Z"/>
+  </g>
+
+  <!-- ===================== CAT (right) ===================== -->
+  <g>
+    <!-- ears -->
+    <path fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4" stroke-linejoin="round" d="M392 272 L360 200 L432 244 Z"/>
+    <path fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4" stroke-linejoin="round" d="M480 272 L502 196 L540 250 Z"/>
+    <path fill="#C8633F" d="M396 262 L378 220 L418 244 Z"/>
+    <path fill="#C8633F" d="M486 262 L500 224 L524 248 Z"/>
+
+    <!-- head -->
+    <ellipse cx="452" cy="352" rx="100" ry="94" fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4"/>
+
+    <!-- muzzle shading -->
+    <ellipse cx="452" cy="380" rx="46" ry="30" fill="#FFFFFF"/>
+
+    <!-- eyes -->
+    <ellipse cx="418" cy="344" rx="8" ry="11" fill="#2A2A2A"/>
+    <ellipse cx="486" cy="344" rx="8" ry="11" fill="#2A2A2A"/>
+    <circle cx="420.5" cy="340" r="2.4" fill="#F5EFE2"/>
+    <circle cx="488.5" cy="340" r="2.4" fill="#F5EFE2"/>
+
+    <!-- nose -->
+    <path fill="#C8633F" d="M452 366 l-8 8 h16 Z"/>
+
+    <!-- mouth -->
+    <path fill="none" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round" d="M452 374 v6 M452 380 q-10 10 -22 4 M452 380 q10 10 22 4"/>
+
+    <!-- whiskers -->
+    <g stroke="#2A2A2A" stroke-width="2.5" stroke-linecap="round">
+      <line x1="392" y1="372" x2="352" y2="366"/>
+      <line x1="392" y1="384" x2="352" y2="388"/>
+      <line x1="512" y1="372" x2="552" y2="366"/>
+      <line x1="512" y1="384" x2="552" y2="388"/>
+    </g>
+  </g>
+
+  <!-- paw print accents on the surface -->
+  <g fill="#5F8A6A" opacity="0.9">
+    <circle cx="140" cy="120" r="5"/>
+    <circle cx="128" cy="132" r="3.4"/>
+    <circle cx="152" cy="132" r="3.4"/>
+  </g>
+</svg>
