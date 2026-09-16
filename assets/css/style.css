@@ -98,7 +98,7 @@ ul {
   flex-direction: column;
   position: relative;
   opacity: 0;
-  animation: panel-in 500ms var(--ease) forwards;
+  animation: panel-in 500ms var(--ease) both;
 }
 
 /* ==========================================================
@@ -113,14 +113,14 @@ ul {
   flex-wrap: nowrap;
   opacity: 0;
   transform: translateY(-8px);
-  animation: fade-down 600ms var(--ease) forwards;
+  animation: fade-down 600ms var(--ease) both;
   animation-delay: 60ms;
 }
 
 .header__left {
   display: flex;
   align-items: center;
-  gap: clamp(20px, 2.4vw, 40px);
+  gap: clamp(16px, 1.8vw, 28px);
   min-width: 0;
 }
 
@@ -139,24 +139,25 @@ ul {
 .pills__list {
   display: flex;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 12px;
+  flex-wrap: nowrap;
 }
 
 .pill {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   height: 54px;
-  padding: 0 22px;
+  padding: 0 18px;
   border-radius: 999px;
   font-weight: 600;
   font-size: 17px;
   white-space: nowrap;
   cursor: pointer;
   box-shadow:
-    0 6px 14px rgba(20, 10, 4, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    0 6px 14px rgba(42, 42, 42, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.12);
   transition: transform 240ms var(--ease), box-shadow 240ms var(--ease);
 }
 
@@ -169,8 +170,9 @@ ul {
 .pill:focus-visible {
   transform: translateY(-2px);
   box-shadow:
-    0 10px 22px rgba(20, 10, 4, 0.22),
-    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    0 10px 24px rgba(42, 42, 42, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.12);
 }
 
 .pill:hover .pill__icon,
@@ -211,7 +213,7 @@ ul {
 .header__right {
   display: flex;
   align-items: center;
-  gap: clamp(14px, 1.6vw, 22px);
+  gap: clamp(10px, 1vw, 16px);
   flex-shrink: 0;
 }
 
@@ -274,7 +276,7 @@ ul {
   align-items: center;
   gap: 10px;
   height: 60px;
-  padding: 0 28px;
+  padding: 0 22px;
   border-radius: 999px;
   background: var(--green);
   border: 3px solid var(--cream);
@@ -386,18 +388,18 @@ ul {
 
 .hero {
   display: grid;
-  grid-template-columns: 52% 48%;
+  grid-template-columns: 54% 46%;
   align-items: center;
   gap: clamp(16px, 3vw, 40px);
   flex: 1;
-  padding-top: clamp(24px, 4vw, 48px);
+  padding-top: 20px;
 }
 
 .hero__left {
   min-width: 0;
   opacity: 0;
   transform: translateY(16px);
-  animation: fade-up 700ms var(--ease) forwards;
+  animation: fade-up 700ms var(--ease) both;
   animation-delay: 140ms;
 }
 
@@ -415,11 +417,11 @@ ul {
 }
 
 .hero__script {
-  margin: -0.18em 0 0;
+  margin: -0.35em 0 0;
   padding: 0;
   color: var(--cream);
-  font-family: 'Marck Script', cursive;
-  font-size: clamp(34px, 4.9vw, 78px);
+  font-family: 'Great Vibes', 'Marck Script', cursive;
+  font-size: clamp(41px, 5.4vw, 90px);
   font-weight: 400;
   line-height: 1;
   transform: rotate(-4deg);
@@ -428,7 +430,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   opacity: 0;
-  animation: fade-up 700ms var(--ease) forwards;
+  animation: fade-up 700ms var(--ease) both;
   animation-delay: 320ms;
 }
 
@@ -436,12 +438,9 @@ ul {
   margin-top: -6px;
   width: clamp(200px, 24vw, 360px);
   height: auto;
-}
-
-.hero__script-underline path {
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
-  animation: draw-line 700ms var(--ease) forwards;
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: draw-line 500ms var(--ease) both;
   animation-delay: 420ms;
 }
 
@@ -453,7 +452,7 @@ ul {
   line-height: 1.3;
   opacity: 0;
   transform: translateY(12px);
-  animation: fade-up 650ms var(--ease) forwards;
+  animation: fade-up 650ms var(--ease) both;
   animation-delay: 420ms;
 }
 
@@ -463,7 +462,7 @@ ul {
   align-items: center;
   gap: 22px;
   height: 82px;
-  margin-top: 34px;
+  margin-top: 32px;
   padding: 0 10px 0 38px;
   border-radius: 999px;
   background: var(--cream);
@@ -475,7 +474,7 @@ ul {
   transition: transform 260ms var(--ease), box-shadow 260ms var(--ease);
   opacity: 0;
   transform: translateY(12px);
-  animation: fade-up 650ms var(--ease) forwards;
+  animation: fade-up 650ms var(--ease) both;
   animation-delay: 420ms;
 }
 
@@ -518,10 +517,10 @@ ul {
   display: flex;
   align-items: center;
   gap: 22px;
-  margin-top: clamp(36px, 5vw, 64px);
+  margin-top: 28px;
   opacity: 0;
   transform: translateY(10px);
-  animation: fade-up 650ms var(--ease) forwards;
+  animation: fade-up 650ms var(--ease) both;
   animation-delay: 520ms;
 }
 
@@ -584,16 +583,19 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: stretch;
+  height: 100%;
   min-width: 0;
+  min-height: 0;
   opacity: 0;
   transform: translateY(12px) scale(0.985);
-  animation: fade-scale-up 800ms var(--ease) forwards;
+  animation: fade-scale-up 800ms var(--ease) both;
   animation-delay: 220ms;
 }
 
 .hero__image {
   width: 100%;
-  max-width: 640px;
+  max-height: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -623,7 +625,7 @@ ul {
 }
 
 @keyframes draw-line {
-  to { stroke-dashoffset: 0; }
+  to { transform: scaleX(1); }
 }
 
 @keyframes pulse-once {
@@ -643,11 +645,12 @@ ul {
   .hero__right {
     animation-duration: 150ms !important;
     transform: none !important;
+    opacity: 1 !important;
   }
 
-  .hero__script-underline path {
+  .hero__script-underline {
     animation: none !important;
-    stroke-dashoffset: 0 !important;
+    transform: scaleX(1) !important;
   }
 
   .pill,
@@ -674,12 +677,14 @@ ul {
    RESPONSIVE — TABLET
    ========================================================== */
 
-@media (max-width: 1199px) {
+/* 1200–1439px: hide phone + divider, shrink pills */
+@media (max-width: 1439px) {
   :root {
     --panel-inset: 18px;
   }
 
-  .header__right > .phone {
+  .header__right > .phone,
+  .header__right > .divider {
     display: none;
   }
 
@@ -709,7 +714,9 @@ ul {
   }
 }
 
-@media (max-width: 959px) {
+/* <1200px: 4 menu pills + search/profile move into the burger menu;
+   header keeps logo, cart, "Записатися" and burger */
+@media (max-width: 1199px) {
   .header__left {
     flex: 1;
   }
@@ -718,15 +725,16 @@ ul {
     display: none;
   }
 
-  .header__right .phone,
-  .header__right .btn-book {
+  .header__right .icon-btn:not(.icon-btn--cart):not(.icon-btn--burger) {
     display: none;
   }
 
   .icon-btn--burger {
     display: inline-flex;
   }
+}
 
+@media (max-width: 959px) {
   /* single column hero, reordered: title -> script -> subtitle -> CTA -> image -> vet */
   .hero {
     display: flex;
@@ -779,7 +787,7 @@ ul {
     --panel-padding: 22px;
   }
 
-  .header__right .icon-btn:not(.icon-btn--cart):not(.icon-btn--burger) {
+  .header__right .btn-book {
     display: none;
   }
 
