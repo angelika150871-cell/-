@@ -97,8 +97,20 @@ ul {
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
   opacity: 0;
   animation: panel-in 500ms var(--ease) both;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* ==========================================================
@@ -106,6 +118,8 @@ ul {
    ========================================================== */
 
 .header {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -387,6 +401,8 @@ ul {
    ========================================================== */
 
 .hero {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 54% 46%;
   align-items: center;
@@ -593,13 +609,6 @@ ul {
   animation-delay: 220ms;
 }
 
-.hero__image {
-  width: 100%;
-  max-height: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
 /* ==========================================================
    ENTRY ANIMATIONS
    ========================================================== */
@@ -768,11 +777,6 @@ ul {
 
   .vet {
     order: 6;
-  }
-
-  .hero__image {
-    max-width: 420px;
-    margin: 0 auto;
   }
 }
 
