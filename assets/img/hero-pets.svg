@@ -1,104 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-labelledby="heroPetsTitle">
-  <title id="heroPetsTitle">Пес і кіт виглядають крізь розірвану поверхню</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-labelledby="heroPetsTitle">
+  <title id="heroPetsTitle">Чорне цуценя та руде кошеня визирають крізь розірваний папір</title>
 
-  <!-- torn paper surface -->
-  <path fill="#F5EFE2" d="
-    M 90 40
-    L 560 40
-    Q 600 40 600 80
-    L 600 540
-    Q 600 580 560 580
-    L 210 580
-    L 232 552 L 196 540 L 224 512 L 186 498
-    L 216 470 L 176 452 L 208 424
-    L 168 402 L 200 372 L 158 348
-    L 190 318 L 150 292 L 182 262
-    L 140 236 L 172 206 L 128 182
-    L 160 150 L 118 126 L 150 96
-    L 108 76 L 90 40
-    Z" />
+  <!-- terracotta backing so the hole reads correctly on any surface -->
+  <rect x="0" y="0" width="700" height="700" fill="#C8633F"/>
 
-  <!-- soft inner shadow edge for torn feel -->
-  <path fill="none" stroke="#C8633F" stroke-width="3" stroke-linejoin="round" stroke-opacity="0.18" d="
-    M 210 580
-    L 232 552 L 196 540 L 224 512 L 186 498
-    L 216 470 L 176 452 L 208 424
-    L 168 402 L 200 372 L 158 348
-    L 190 318 L 150 292 L 182 262
-    L 140 236 L 172 206 L 128 182
-    L 160 150 L 118 126 L 150 96
-    L 108 76 L 90 40" />
+  <!-- torn hole (dark interior): smooth curves on top/sides, jagged tear along the bottom -->
+  <path fill="#241A16" d="
+    M 350 55
+    C 470 55 566 118 600 222
+    C 630 314 622 418 582 494
+    C 566 524 546 550 522 572
+    L 494 546 L 470 580 L 442 550 L 418 584
+    L 390 552 L 364 586 L 336 554
+    L 308 588 L 280 556 L 252 582
+    C 196 566 152 522 126 458
+    C 96 384 104 288 154 208
+    C 200 132 268 62 350 55 Z"/>
 
-  <!-- ===================== DOG (left) ===================== -->
+  <!-- torn-edge highlight ring, only along the jagged tear -->
+  <path fill="none" stroke="#F0C7A8" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.5" d="
+    M 522 572
+    L 494 546 L 470 580 L 442 550 L 418 584
+    L 390 552 L 364 586 L 336 554
+    L 308 588 L 280 556 L 252 582"/>
+
+  <!-- ============ PUPPY (upper) ============ -->
   <g>
-    <!-- ears -->
-    <path fill="#C8633F" d="M228 250 Q170 210 178 300 Q182 360 246 348 Z"/>
-    <path fill="#C8633F" d="M332 250 Q392 208 386 300 Q384 360 320 348 Z"/>
-
-    <!-- head -->
-    <ellipse cx="280" cy="360" rx="118" ry="112" fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4"/>
-
-    <!-- snout -->
-    <ellipse cx="280" cy="404" rx="58" ry="42" fill="#FFFFFF" stroke="#2A2A2A" stroke-width="4"/>
-
-    <!-- nose -->
-    <ellipse cx="280" cy="384" rx="16" ry="12" fill="#2A2A2A"/>
-
-    <!-- mouth -->
-    <path fill="none" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round" d="M280 396 v14 M280 410 q-16 14 -32 6 M280 410 q16 14 32 6"/>
-
-    <!-- eyes -->
-    <circle cx="238" cy="348" r="9" fill="#2A2A2A"/>
-    <circle cx="322" cy="348" r="9" fill="#2A2A2A"/>
-
-    <!-- eye highlight -->
-    <circle cx="241" cy="345" r="2.6" fill="#F5EFE2"/>
-    <circle cx="325" cy="345" r="2.6" fill="#F5EFE2"/>
-
-    <!-- cheeks patch -->
-    <path fill="#C8633F" fill-opacity="0.35" d="M198 356 q-14 26 10 40 q22 10 24-16 Z"/>
-    <path fill="#C8633F" fill-opacity="0.35" d="M362 356 q14 26 -10 40 q-22 10 -24-16 Z"/>
+    <path fill="#1B1310" d="M292 232 Q230 187 240 282 Q244 348 314 334 Z"/>
+    <path fill="#1B1310" d="M408 232 Q470 187 460 282 Q456 348 386 334 Z"/>
+    <ellipse cx="350" cy="350" rx="128" ry="118" fill="#221713"/>
+    <ellipse cx="350" cy="396" rx="62" ry="46" fill="#2E211C"/>
+    <ellipse cx="350" cy="376" rx="17" ry="13" fill="#0E0906"/>
+    <path fill="none" stroke="#0E0906" stroke-width="4" stroke-linecap="round" d="M350 388 v14 M350 402 q-16 14 -32 6 M350 402 q16 14 32 6"/>
+    <circle cx="306" cy="338" r="11" fill="#0E0906"/>
+    <circle cx="394" cy="338" r="11" fill="#0E0906"/>
+    <circle cx="310" cy="334" r="3.4" fill="#C9906A"/>
+    <circle cx="398" cy="334" r="3.4" fill="#C9906A"/>
   </g>
 
-  <!-- ===================== CAT (right) ===================== -->
+  <!-- ============ KITTEN (lower, in front) ============ -->
   <g>
-    <!-- ears -->
-    <path fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4" stroke-linejoin="round" d="M392 272 L360 200 L432 244 Z"/>
-    <path fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4" stroke-linejoin="round" d="M480 272 L502 196 L540 250 Z"/>
-    <path fill="#C8633F" d="M396 262 L378 220 L418 244 Z"/>
-    <path fill="#C8633F" d="M486 262 L500 224 L524 248 Z"/>
-
-    <!-- head -->
-    <ellipse cx="452" cy="352" rx="100" ry="94" fill="#F5EFE2" stroke="#2A2A2A" stroke-width="4"/>
-
-    <!-- muzzle shading -->
-    <ellipse cx="452" cy="380" rx="46" ry="30" fill="#FFFFFF"/>
-
-    <!-- eyes -->
-    <ellipse cx="418" cy="344" rx="8" ry="11" fill="#2A2A2A"/>
-    <ellipse cx="486" cy="344" rx="8" ry="11" fill="#2A2A2A"/>
-    <circle cx="420.5" cy="340" r="2.4" fill="#F5EFE2"/>
-    <circle cx="488.5" cy="340" r="2.4" fill="#F5EFE2"/>
-
-    <!-- nose -->
-    <path fill="#C8633F" d="M452 366 l-8 8 h16 Z"/>
-
-    <!-- mouth -->
-    <path fill="none" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round" d="M452 374 v6 M452 380 q-10 10 -22 4 M452 380 q10 10 22 4"/>
-
-    <!-- whiskers -->
-    <g stroke="#2A2A2A" stroke-width="2.5" stroke-linecap="round">
-      <line x1="392" y1="372" x2="352" y2="366"/>
-      <line x1="392" y1="384" x2="352" y2="388"/>
-      <line x1="512" y1="372" x2="552" y2="366"/>
-      <line x1="512" y1="384" x2="552" y2="388"/>
+    <path fill="#E8823A" stroke="#0E0906" stroke-width="3" stroke-linejoin="round" d="M312 512 L288 446 L354 482 Z"/>
+    <path fill="#E8823A" stroke="#0E0906" stroke-width="3" stroke-linejoin="round" d="M392 512 L418 444 L450 488 Z"/>
+    <path fill="#F2A868" d="M316 500 L300 462 L336 482 Z"/>
+    <path fill="#F2A868" d="M388 500 L404 466 L426 486 Z"/>
+    <ellipse cx="352" cy="562" rx="96" ry="86" fill="#EB8B42"/>
+    <ellipse cx="352" cy="586" rx="44" ry="28" fill="#F6B679"/>
+    <ellipse cx="320" cy="554" rx="9" ry="12" fill="#0E0906"/>
+    <ellipse cx="384" cy="554" rx="9" ry="12" fill="#0E0906"/>
+    <circle cx="323" cy="550" r="2.6" fill="#F6D9B8"/>
+    <circle cx="387" cy="550" r="2.6" fill="#F6D9B8"/>
+    <path fill="#B85A20" d="M352 574 l-9 8 h18 Z"/>
+    <path fill="none" stroke="#0E0906" stroke-width="3.5" stroke-linecap="round" d="M352 582 v6 M352 588 q-10 10 -22 4 M352 588 q10 10 22 4"/>
+    <g stroke="#0E0906" stroke-width="2.2" stroke-linecap="round" opacity="0.75">
+      <line x1="296" y1="576" x2="256" y2="570"/>
+      <line x1="296" y1="588" x2="256" y2="592"/>
+      <line x1="408" y1="576" x2="448" y2="570"/>
+      <line x1="408" y1="588" x2="448" y2="592"/>
     </g>
-  </g>
-
-  <!-- paw print accents on the surface -->
-  <g fill="#5F8A6A" opacity="0.9">
-    <circle cx="140" cy="120" r="5"/>
-    <circle cx="128" cy="132" r="3.4"/>
-    <circle cx="152" cy="132" r="3.4"/>
+    <!-- front paws resting on the torn edge -->
+    <ellipse cx="298" cy="608" rx="26" ry="20" fill="#EB8B42"/>
+    <ellipse cx="406" cy="608" rx="26" ry="20" fill="#EB8B42"/>
   </g>
 </svg>
