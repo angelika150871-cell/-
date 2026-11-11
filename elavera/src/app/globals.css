@@ -12,10 +12,10 @@
   --color-milk: #fcfaf7;
   --color-graphite: #242220;
   --color-champagne: #c5ac86;
-  --color-champagne-deep: #8a7149; /* контрастный вариант для текста на светлом (≥4.5:1) */
+  --color-champagne-deep: #76613e; /* контрастный шампань для текста на светлом: 5.25:1 на ivory, 4.5:1 на sand */
   --color-wine: #482e35;
   --color-sand: #e9e0d5;
-  --color-ink-soft: #5b5650; /* вторичный текст на светлом, ≥7:1 */
+  --color-ink-soft: #5b5650; /* вторичный текст на светлом: 6.45:1 на ivory, 5.56:1 на sand */
   --font-serif: "Cormorant Garamond", "Times New Roman", serif;
   --font-sans: "Jost Variable", "Helvetica Neue", Arial, sans-serif;
   --ease-lux: cubic-bezier(0.22, 0.61, 0.36, 1);
