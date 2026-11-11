@@ -20,13 +20,13 @@
 - Золото полированное 750 пробы: белое — яркое, чуть тёплое серебристо-белое (не серое и не синее); жёлтое — приглушённое шампань-жёлтое; розовое — мягкое розово-медное.
 - Бриллианты: правдоподобная геометрия огранки, чёткие белые блики и лишь несколько мягких спектральных вспышек; без звёзд-фильтров, bloom и блёсток.
 - Свет: большой мягкий ключ сверху-слева, мягкое заполнение справа, едва заметная контактная тень.
-- Фон товарных фото: ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки), без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
+- Фон товарных фото: идеально ровный #F5F1EA по всему кадру до краёв — без градиента, виньетки и затемнённых углов; без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
 - Запрещено на любом изображении: текст, логотипы, водяные знаки, клейма, чужие бренды.
 
 **Критерии приёмки для моделей:** естественная фактура кожи (поры, мягкий блеск, без «пластика»), по пять пальцев на руке, корректная анатомия уха, шеи и ключиц, украшение сидит физически правдоподобно.
 
 **Как сайт показывает изображения:**
-- Товарные фото (№ 7–22) показываются **целиком** (object-contain) в квадратных рамках; фон под фото берётся из цвета краёв снимка, поэтому **края кадра должны быть ровного цвета #F5F1EA** и ничто не должно касаться краёв.
+- Товарные фото (№ 7–22) показываются **целиком** (object-contain) в квадратных рамках; фон под фото берётся из цвета краёв снимка, поэтому **фон должен быть идеально ровным #F5F1EA до самых краёв** (без градиента, виньетки и затемнённых углов), а изделие должно полностью помещаться в кадре и не касаться краёв.
 - Масштаб изделий единый по весу в кадре, но зависит от типа: кольца ≈ 60% кадра, пара серёг ≈ 65% ширины, колье и браслеты ≈ 75% ширины (см. поле «Безопасная зона» в каждом задании).
 - Hero и editorial (№ 1–6) показываются через object-cover с индивидуальным object-position; соблюдайте «безопасную зону» и «свободное место под текст».
 - **Дополнительные ракурсы** сейчас не создаются: галерея показывает только существующие кадры, без дублей миниатюр и без заглушек. Если позже добавить `<slug>-2.png` и `<slug>-3.png` и импортировать их, они появятся в галерее автоматически.
@@ -389,9 +389,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Кольцо Aube Pavé · арт. EV-R-001 · Кольца · коллекция Aube · 3 850 € · камни: круглая, 0,42 кт, 38 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото, розовое золото). a slender women's band ring, 2.2 mm wide, polished white gold; a continuous single row of 38 tiny round brilliant-cut diamonds (about 0.42 ct total) running around the entire outer circumference of the band; classic pavé: each diamond sits in a small bead-set shaton flush with the band, with tiny gold beads between neighbouring stones; smooth polished comfort-fit inner surface.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, seen from a front three-quarter angle slightly above, so the full diamond row and the inside curve are visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, seen from a front three-quarter angle slightly above, so the full diamond row and the inside curve are visible. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -408,7 +408,7 @@ SETTING AND CONSTRUCTION: classic pavé: each diamond sits in a small bead-set s
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, seen from a front three-quarter angle slightly above, so the full diamond row and the inside curve are visible.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -447,9 +447,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Кольцо Lumière Oval · арт. EV-R-002 · Кольца · коллекция Lumière · 7 400 € · камни: овальная, 1,05 кт, 21 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). a women's ring with a central oval diamond and a delicate halo, thin plain polished white gold band; one central oval-cut diamond (about 7.6 × 5.4 mm) surrounded by a thin halo of tiny round brilliant diamonds (21 stones in total including the centre stone, about 1.05 ct total); four-claw open (ajouré) basket under the centre stone so light passes through it; halo stones in beaded settings; the long axis of the oval is perpendicular to the band.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above, the oval clearly visible with its facets and the halo. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above, the oval clearly visible with its facets and the halo. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -466,7 +466,7 @@ SETTING AND CONSTRUCTION: four-claw open (ajouré) basket under the centre stone
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above, the oval clearly visible with its facets and the halo.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -504,9 +504,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Кольцо Orbite Duo · арт. EV-R-003 · Кольца · коллекция Orbite · 5 900 € · камни: груша, 0,78 кт, 2 шт. · металл на фото — жёлтое золото (металл по умолчанию на сайте; доступно: жёлтое золото). a toi-et-moi ring with two diamonds on a thin plain polished yellow gold band, 1.8 mm wide; two diamonds: one pear-shaped and one round brilliant, about 0.78 ct total, set side by side on top of the band so that they face each other, the pear's pointed tip angled toward the round stone; open claws (three small claws per stone), low and light, no halo, no side stones.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so both stones and their arrangement are clearly readable. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so both stones and their arrangement are clearly readable. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -523,7 +523,7 @@ SETTING AND CONSTRUCTION: open claws (three small claws per stone), low and ligh
 METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so both stones and their arrangement are clearly readable.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 58–62% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -563,9 +563,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Серьги-пусеты Éclat · арт. EV-E-001 · Серьги · коллекция Éclat · 2 650 € · камни: круглая, 0,60 кт, 2 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото). a pair of classic stud earrings, polished white gold; two round brilliant-cut diamonds, about 0.30 ct each (0.60 ct total), identical in size and cut; low four-claw settings; the posts and butterfly backs are not visible; the two earrings are exact mirror-image twins.
 
-**Композиция, ракурс, свет, фон:** the pair placed side by side on the surface, about one earring-width apart, both facing the camera straight on, very slightly tilted back so the diamond tables catch the light. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the pair placed side by side on the surface, about one earring-width apart, both facing the camera straight on, very slightly tilted back so the diamond tables catch the light. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -582,7 +582,7 @@ SETTING AND CONSTRUCTION: low four-claw settings; the posts and butterfly backs 
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair placed side by side on the surface, about one earring-width apart, both facing the camera straight on, very slightly tilted back so the diamond tables catch the light.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -621,9 +621,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Серьги-капли Lumière · арт. EV-E-002 · Серьги · коллекция Lumière · 6 800 € · камни: груша, 1,20 кт, 6 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). a pair of elegant drop earrings, polished white gold, about 28 mm long; per earring: one small round brilliant on top, one tiny round brilliant on the link, and one pear-shaped diamond hanging below (6 stones per pair, about 1.20 ct total); the pear diamond sits in a six-claw basket with a refined pointed tip claw; a fine polished link connects the pieces; the earrings are exact mirror-image twins.
 
-**Композиция, ракурс, свет, фон:** the pair suspended as if hanging, vertical, side by side, one hanging very slightly higher than the other for a natural look; seamless warm backdrop behind (no hooks, wires or hands visible). Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the pair suspended as if hanging, vertical, side by side, one hanging very slightly higher than the other for a natural look; seamless warm backdrop behind (no hooks, wires or hands visible). Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -640,7 +640,7 @@ SETTING AND CONSTRUCTION: the pear diamond sits in a six-claw basket with a refi
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair suspended as if hanging, vertical, side by side, one hanging very slightly higher than the other for a natural look; seamless warm backdrop behind (no hooks, wires or hands visible).
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -678,9 +678,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Серьги-кольца Aube Hoop · арт. EV-E-003 · Серьги · коллекция Aube · 3 200 € · камни: круглая, 0,50 кт, 32 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото, розовое золото). a pair of small huggie hoop earrings, 14 mm diameter, polished white gold; a row of tiny round brilliant diamonds (32 in total, 16 per earring, about 0.50 ct total) set along the outer edge of each hoop; pavé beads along the outer edge, hidden click closure; slim, rounded gold profile.
 
-**Композиция, ракурс, свет, фон:** the pair standing upright side by side, one seen from the front, the other turned about 45 degrees so the stone row and the thickness of the hoop are both visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the pair standing upright side by side, one seen from the front, the other turned about 45 degrees so the stone row and the thickness of the hoop are both visible. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, пара целиком ≈62–68% ширины и ≈40–55% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -697,7 +697,7 @@ SETTING AND CONSTRUCTION: pavé beads along the outer edge, hidden click closure
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair standing upright side by side, one seen from the front, the other turned about 45 degrees so the stone row and the thickness of the hoop are both visible.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -737,9 +737,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Колье Cascade Rivière · арт. EV-N-001 · Колье и подвески · коллекция Cascade · 18 900 € · камни: круглая, 4,10 кт, 52 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). a rivière necklace, 42 cm, polished white gold; 52 round brilliant-cut diamonds (about 4.10 ct total), graduated: largest in the centre, gradually smaller toward the clasp; each diamond in its own individual four-claw basket, linked by a hidden flexible gold structure so the line of stones looks continuous; fine clasp at the back.
 
-**Композиция, ракурс, свет, фон:** the necklace laid flat on the surface as a soft, natural horseshoe / U-shaped arc, the centre largest stones at the lowest point of the curve, viewed from directly above and slightly in front. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the necklace laid flat on the surface as a soft, natural horseshoe / U-shaped arc, the centre largest stones at the lowest point of the curve, viewed from directly above and slightly in front. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -756,7 +756,7 @@ SETTING AND CONSTRUCTION: each diamond in its own individual four-claw basket, l
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the necklace laid flat on the surface as a soft, natural horseshoe / U-shaped arc, the centre largest stones at the lowest point of the curve, viewed from directly above and slightly in front.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -795,9 +795,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Подвеска Éclat Solitaire · арт. EV-N-002 · Колье и подвески · коллекция Éclat · 2 900 € · камни: круглая, 0,45 кт, 1 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото, розовое золото). a delicate solitaire pendant necklace, polished white gold, very fine chain 42 cm; one round brilliant-cut diamond, about 0.45 ct (about 4.9 mm); four-claw setting with a tiny bail; very thin anchor-link chain.
 
-**Композиция, ракурс, свет, фон:** the pendant lies on the surface with the chain forming a gentle V-shaped curve upward and out of the top of the frame edges evenly; the diamond is the focal point, seen from above and slightly in front. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the pendant lies on the surface with the chain forming a gentle V-shaped curve upward and out of the top of the frame edges evenly; the diamond is the focal point, seen from above and slightly in front. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -814,7 +814,7 @@ SETTING AND CONSTRUCTION: four-claw setting with a tiny bail; very thin anchor-l
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pendant lies on the surface with the chain forming a gentle V-shaped curve upward and out of the top of the frame edges evenly; the diamond is the focal point, seen from above and slightly in front.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -852,9 +852,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Подвеска Aube Oval · арт. EV-N-003 · Колье и подвески · коллекция Aube · 4 350 € · камни: овальная, 0,70 кт, 1 шт. · металл на фото — жёлтое золото (металл по умолчанию на сайте; доступно: жёлтое золото, розовое золото). a pendant necklace with an oval diamond, polished yellow gold, fine chain 45 cm; one oval-cut diamond, about 0.70 ct (about 7 × 5 mm); thin bezel (rim) setting around the stone, polished gold collar, small bail, fine chain.
 
-**Композиция, ракурс, свет, фон:** the pendant lies on the surface with the chain in a gentle V-shaped curve, oval oriented with its long axis vertical, seen from above and slightly in front. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the pendant lies on the surface with the chain in a gentle V-shaped curve, oval oriented with its long axis vertical, seen from above and slightly in front. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие (цепочка/дуга колье) ≈72–80% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -871,7 +871,7 @@ SETTING AND CONSTRUCTION: thin bezel (rim) setting around the stone, polished go
 METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the pendant lies on the surface with the chain in a gentle V-shaped curve, oval oriented with its long axis vertical, seen from above and slightly in front.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -910,9 +910,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Браслет Lumière Rivière · арт. EV-B-001 · Браслеты · коллекция Lumière · 12 400 € · камни: круглая, 3,20 кт, 44 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). a flexible rivière tennis bracelet, 17.5 cm, polished white gold; 44 identical round brilliant-cut diamonds (about 3.20 ct total) in one continuous line; each stone in an individual four-claw basket, flexible links, box clasp with a safety catch visible as a slim rectangular closure.
 
-**Композиция, ракурс, свет, фон:** the bracelet laid on the surface in a soft open C-shaped / oval curve, as if just removed from the wrist, the clasp placed naturally at the back right; viewed from above and slightly in front. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the bracelet laid on the surface in a soft open C-shaped / oval curve, as if just removed from the wrist, the clasp placed naturally at the back right; viewed from above and slightly in front. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -929,7 +929,7 @@ SETTING AND CONSTRUCTION: each stone in an individual four-claw basket, flexible
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the bracelet laid on the surface in a soft open C-shaped / oval curve, as if just removed from the wrist, the clasp placed naturally at the back right; viewed from above and slightly in front.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -967,9 +967,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Браслет-жёсткий Orbite · арт. EV-B-002 · Браслеты · коллекция Orbite · 5 400 € · камни: круглая, 0,56 кт, 7 шт. · металл на фото — жёлтое золото (металл по умолчанию на сайте; доступно: жёлтое золото, розовое золото). a slim rigid oval bangle bracelet, polished yellow gold, about 4 mm wide, inner diameter 58 mm; seven round diamonds (about 0.08 ct each, 0.56 ct total) evenly spaced around the bangle, set flush into the band; flush bezel-style settings so the diamonds are level with the gold surface; hidden hinge and concealed clasp; smooth polished profile.
 
-**Композиция, ракурс, свет, фон:** the bangle stands on its edge, tilted slightly toward the camera, so the oval opening and the evenly spaced stones are visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the bangle stands on its edge, tilted slightly toward the camera, so the oval opening and the evenly spaced stones are visible. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -986,7 +986,7 @@ SETTING AND CONSTRUCTION: flush bezel-style settings so the diamonds are level w
 METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the bangle stands on its edge, tilted slightly toward the camera, so the oval opening and the evenly spaced stones are visible.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -1024,9 +1024,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Браслет-цепь Aube · арт. EV-B-003 · Браслеты · коллекция Aube · 2 100 € · камни: круглая, 0,18 кт, 3 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото, розовое золото). a light chain bracelet, polished white gold, 17–19 cm with a lobster clasp; three small round brilliant diamonds (about 0.06 ct each, 0.18 ct total) in tiny bezels that slide freely along the chain, evenly spaced; tiny bezel stations on a very fine polished chain; small lobster clasp and extension ring.
 
-**Композиция, ракурс, свет, фон:** the bracelet laid on the surface in a loose, natural S-curve with the three stones clearly visible and the clasp resting near one end of the frame. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the bracelet laid on the surface in a loose, natural S-curve with the three stones clearly visible and the clasp resting near one end of the frame. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, изделие ≈72–78% ширины кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -1043,7 +1043,7 @@ SETTING AND CONSTRUCTION: tiny bezel stations on a very fine polished chain; sma
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the bracelet laid on the surface in a loose, natural S-curve with the three stones clearly visible and the clasp resting near one end of the frame.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the piece spans about 72–78% of the frame width; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -1082,9 +1082,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Помолвочное кольцо Promesse Round · арт. EV-P-001 · Помолвочные кольца · коллекция Promesse · 9 800 € · камни: круглая, 1,00 кт, 1 шт. · металл на фото — жёлтое золото (металл по умолчанию на сайте; доступно: жёлтое золото, белое золото, розовое золото). a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top; one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm), exceptional cut with crisp facet symmetry; six-claw high setting with slim claws and an open gallery; refined and light; plain band without side stones.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -1101,7 +1101,7 @@ SETTING AND CONSTRUCTION: six-claw high setting with slim claws and an open gall
 METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -1137,11 +1137,11 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 - Поиск (панель шапки) (`любая страница`): Миниатюра результата поиска
 - Карточка украшения (`/product/*`): Блок «Похожие украшения» (когда изделие попадает в подборку)
 
-**Украшение:** Помолвочное кольцо Promesse Oval · арт. EV-P-002 · Помолвочные кольца · коллекция Promesse · 11 600 € · камни: овальная, 1,30 кт, 25 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). an engagement ring with an oval diamond and a hidden halo, thin polished white gold band; one oval-cut centre diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds under the centre stone, visible mainly from the side (25 stones in total, about 1.30 ct total); four double claws (eight claw tips) holding the oval; the hidden halo sits below the girdle inside the basket; thin plain band.
+**Украшение:** Помолвочное кольцо Promesse Oval · арт. EV-P-002 · Помолвочные кольца · коллекция Promesse · 11 600 € · камни: овальная, 1,30 кт, 25 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). an engagement ring with a single central oval diamond and a hidden halo, thin plain polished white gold band; one central oval-cut diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds set beneath the centre stone, below its girdle, inside the basket (25 stones in total including the centre stone, about 1.30 ct total); four double claws (eight claw tips) holding the oval; from the front the ring must look like a clean solitaire — NO visible halo around the stone; the hidden halo of tiny diamonds is distinguishable mainly from the side, as a sparkling line under the centre stone; the band is thin, smooth and plain (no pavé, no side stones).
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, a three-quarter side view so both the oval table and the hidden halo under the stone can be seen. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, shown from a three-quarter side view (about 30–45 degrees from the front, slightly above), so the oval table is still readable and the hidden halo under the stone is clearly visible from the side. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -1152,13 +1152,13 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: an engagement ring with an oval diamond and a hidden halo, thin polished white gold band. This is catalog item EV-P-002 "promesse oval hidden halo" (engagement ring, oval cut diamonds) — render exactly this design and do not invent additional elements.
-STONES: one oval-cut centre diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds under the centre stone, visible mainly from the side (25 stones in total, about 1.30 ct total).
-SETTING AND CONSTRUCTION: four double claws (eight claw tips) holding the oval; the hidden halo sits below the girdle inside the basket; thin plain band.
+SUBJECT: an engagement ring with a single central oval diamond and a hidden halo, thin plain polished white gold band. This is catalog item EV-P-002 "promesse oval hidden halo" (engagement ring, oval cut diamonds) — render exactly this design and do not invent additional elements.
+STONES: one central oval-cut diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds set beneath the centre stone, below its girdle, inside the basket (25 stones in total including the centre stone, about 1.30 ct total).
+SETTING AND CONSTRUCTION: four double claws (eight claw tips) holding the oval; from the front the ring must look like a clean solitaire — NO visible halo around the stone; the hidden halo of tiny diamonds is distinguishable mainly from the side, as a sparkling line under the centre stone; the band is thin, smooth and plain (no pavé, no side stones).
 METAL: 18k (750) white gold, high polish.
-POSE AND ANGLE: the ring stands upright on its band, a three-quarter side view so both the oval table and the hidden halo under the stone can be seen.
+POSE AND ANGLE: the ring stands upright on its band, shown from a three-quarter side view (about 30–45 degrees from the front, slightly above), so the oval table is still readable and the hidden halo under the stone is clearly visible from the side.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -1168,9 +1168,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```
 
 **Чек-лист приёмки:**
-- [ ] Скрытый ореол виден сбоку под камнем
-- [ ] Четыре двойные лапки
-- [ ] Ободок тонкий и гладкий
+- [ ] Центральный овальный камень, четыре двойные лапки
+- [ ] Скрытый ореол виден ПОД камнем при боковом ракурсе; сверху/спереди ореола вокруг камня нет
+- [ ] Ободок тонкий, гладкий, без паве
+- [ ] Белое золото, без боковых камней
 - [ ] Нет текста, клейм, логотипов и посторонних предметов
 - [ ] Украшение целиком в кадре и по центру с полями
 
@@ -1196,9 +1197,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Помолвочное кольцо Promesse Trilogy · арт. EV-P-003 · Помолвочные кольца · коллекция Promesse · 14 200 € · камни: изумрудная, 1,60 кт, 3 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото). a three-stone engagement ring, polished white gold (platinum-look) band; one emerald-cut centre diamond (about 0.8 ct, long step-cut facets) flanked by two tapered baguette diamonds (about 0.4 ct each); about 1.60 ct total; corner claws on the emerald-cut stone, channel or claw settings on the baguettes; clean architectural lines; band thin and plain.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so the step facets of the emerald cut and both side baguettes are clearly visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so the step facets of the emerald cut and both side baguettes are clearly visible. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -1215,7 +1216,7 @@ SETTING AND CONSTRUCTION: corner claws on the emerald-cut stone, channel or claw
 METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so the step facets of the emerald cut and both side baguettes are clearly visible.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -1253,9 +1254,9 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Украшение:** Помолвочное кольцо Promesse Pear · арт. EV-P-004 · Помолвочные кольца · коллекция Promesse · 10 400 € · камни: груша, 1,10 кт, 1 шт. · металл на фото — розовое золото (металл по умолчанию на сайте; доступно: розовое золото, жёлтое золото). an engagement ring, thin polished rose gold band 1.7 mm wide; one pear-shaped diamond of about 1.10 ct with a clean pointed tip and rounded end; a V-shaped claw protecting the pointed tip plus three more slim claws; open gallery; plain band without side stones.
 
-**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above, the pear oriented with its tip pointing away from the finger. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
+**Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above, the pear oriented with its tip pointing away from the finger. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
-**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.
+**Безопасная зона:** Украшение по центру, кольцо ≈58–62% ширины и ≈62–66% высоты кадра; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.
 
 **Свободное место под текст:** Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.
 
@@ -1272,7 +1273,7 @@ SETTING AND CONSTRUCTION: a V-shaped claw protecting the pointed tip plus three 
 METAL: 18k (750) rose gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above, the pear oriented with its tip pointing away from the finger.
 
-FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.
+FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 

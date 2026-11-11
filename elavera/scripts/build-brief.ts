@@ -109,11 +109,11 @@ const specs: Record<string, Spec> = {
     qc: ["Ровно шесть лапок вокруг одного круглого камня", "Ободок тонкий и гладкий", "Огранка круглая бриллиантовая, симметричные грани"],
   },
   "promesse-oval-hidden-halo": {
-    subject: "an engagement ring with an oval diamond and a hidden halo, thin polished white gold band",
-    stones: "one oval-cut centre diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds under the centre stone, visible mainly from the side (25 stones in total, about 1.30 ct total)",
-    setting: "four double claws (eight claw tips) holding the oval; the hidden halo sits below the girdle inside the basket; thin plain band",
-    pose: "the ring stands upright on its band, a three-quarter side view so both the oval table and the hidden halo under the stone can be seen",
-    qc: ["Скрытый ореол виден сбоку под камнем", "Четыре двойные лапки", "Ободок тонкий и гладкий"],
+    subject: "an engagement ring with a single central oval diamond and a hidden halo, thin plain polished white gold band",
+    stones: "one central oval-cut diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds set beneath the centre stone, below its girdle, inside the basket (25 stones in total including the centre stone, about 1.30 ct total)",
+    setting: "four double claws (eight claw tips) holding the oval; from the front the ring must look like a clean solitaire — NO visible halo around the stone; the hidden halo of tiny diamonds is distinguishable mainly from the side, as a sparkling line under the centre stone; the band is thin, smooth and plain (no pavé, no side stones)",
+    pose: "the ring stands upright on its band, shown from a three-quarter side view (about 30–45 degrees from the front, slightly above), so the oval table is still readable and the hidden halo under the stone is clearly visible from the side",
+    qc: ["Центральный овальный камень, четыре двойные лапки", "Скрытый ореол виден ПОД камнем при боковом ракурсе; сверху/спереди ореола вокруг камня нет", "Ободок тонкий, гладкий, без паве", "Белое золото, без боковых камней"],
   },
   "promesse-emerald-trilogy": {
     subject: "a three-stone engagement ring, polished white gold (platinum-look) band",
@@ -153,7 +153,7 @@ const FILL_RU: Record<string, string> = {
   rings: "кольцо ≈58–62% ширины и высоты кадра", engagement: "кольцо ≈58–62% ширины и ≈62–66% высоты кадра",
   earrings: "пара целиком ≈62–68% ширины и ≈40–55% высоты кадра", necklaces: "изделие (цепочка/дуга колье) ≈72–80% ширины кадра", bracelets: "изделие ≈72–78% ширины кадра",
 };
-const framing = (cat: string) => `FRAMING (important): perfectly centered composition, one single piece (or one pair) only; ${FILL[cat]}; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.`;
+const framing = (cat: string) => `FRAMING (important): perfectly centered composition, one single piece (or one pair) only; ${FILL[cat]}; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a perfectly flat, uniform, seamless warm ivory #F5F1EA across the ENTIRE frame up to every edge and corner — absolutely no gradient, no vignette, no darker or lighter corners, no light falloff, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the background must be the same flat ivory colour everywhere. Only a very soft, subtle contact shadow directly under the piece is allowed.`;
 
 interface Entry {
   n: number; id: string; kind: "hero" | "editorial" | "product";
@@ -359,11 +359,11 @@ ${NEG}`;
     title: `${p.name} (${p.id})`, productId: p.id, slug: p.slug,
     generateRatio: "1:1 (квадрат)", generateSize: "1536×1536 или 1024×1024",
     siteRatios: "Показывается ЦЕЛИКОМ (object-contain), без обрезки: квадратные карточки каталога, главная страница изделия, миниатюры корзины и поиска, плитки категорий, блок Signature. Фон под фото берётся из цвета краёв снимка.",
-    safeZone: `Украшение по центру, ${FILL_RU[p.category]}; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.`,
+    safeZone: `Украшение по центру, ${FILL_RU[p.category]}; ровные поля со всех сторон, ничто не касается краёв. Фон — идеально ровный #F5F1EA по всему кадру до самых краёв и углов: без градиента, виньетки и затемнённых углов.`,
     textSpace: "Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
     usedOn, refs: [],
     description: `${p.name} · арт. ${p.id} · ${CATEGORY_LABEL[p.category]} · коллекция ${p.collection} · ${formatPrice(p.price)} · камни: ${CUT_LABEL[p.stone.cut].toLowerCase()}, ${formatCarat(p.stone.carat)}, ${p.stone.count} шт. · металл на фото — ${metalLabel.toLowerCase()} (металл по умолчанию на сайте; доступно: ${p.metals.filter((m) => m.available).map((m) => METAL_LABEL[m.metal].toLowerCase()).join(", ")}). ${s.subject}; ${s.stones}; ${s.setting}.`,
-    composition: `${s.pose}. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.`,
+    composition: `${s.pose}. Фон — идеально ровный бесшовный #F5F1EA по всему кадру (без градиента, виньетки и затемнённых углов); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.`,
     qc: [...s.qc, "Нет текста, клейм, логотипов и посторонних предметов", "Украшение целиком в кадре и по центру с полями"],
     prompt,
   });
@@ -408,13 +408,13 @@ md.push(`# ÉLAVÉRA — ТЗ на создание ${stoneCount} изображ
 - Золото полированное 750 пробы: белое — яркое, чуть тёплое серебристо-белое (не серое и не синее); жёлтое — приглушённое шампань-жёлтое; розовое — мягкое розово-медное.
 - Бриллианты: правдоподобная геометрия огранки, чёткие белые блики и лишь несколько мягких спектральных вспышек; без звёзд-фильтров, bloom и блёсток.
 - Свет: большой мягкий ключ сверху-слева, мягкое заполнение справа, едва заметная контактная тень.
-- Фон товарных фото: ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки), без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
+- Фон товарных фото: идеально ровный #F5F1EA по всему кадру до краёв — без градиента, виньетки и затемнённых углов; без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
 - Запрещено на любом изображении: текст, логотипы, водяные знаки, клейма, чужие бренды.
 
 **Критерии приёмки для моделей:** естественная фактура кожи (поры, мягкий блеск, без «пластика»), по пять пальцев на руке, корректная анатомия уха, шеи и ключиц, украшение сидит физически правдоподобно.
 
 **Как сайт показывает изображения:**
-- Товарные фото (№ 7–22) показываются **целиком** (object-contain) в квадратных рамках; фон под фото берётся из цвета краёв снимка, поэтому **края кадра должны быть ровного цвета #F5F1EA** и ничто не должно касаться краёв.
+- Товарные фото (№ 7–22) показываются **целиком** (object-contain) в квадратных рамках; фон под фото берётся из цвета краёв снимка, поэтому **фон должен быть идеально ровным #F5F1EA до самых краёв** (без градиента, виньетки и затемнённых углов), а изделие должно полностью помещаться в кадре и не касаться краёв.
 - Масштаб изделий единый по весу в кадре, но зависит от типа: кольца ≈ 60% кадра, пара серёг ≈ 65% ширины, колье и браслеты ≈ 75% ширины (см. поле «Безопасная зона» в каждом задании).
 - Hero и editorial (№ 1–6) показываются через object-cover с индивидуальным object-position; соблюдайте «безопасную зону» и «свободное место под текст».
 - **Дополнительные ракурсы** сейчас не создаются: галерея показывает только существующие кадры, без дублей миниатюр и без заглушек. Если позже добавить \`<slug>-2.png\` и \`<slug>-3.png\` и импортировать их, они появятся в галерее автоматически.
@@ -485,15 +485,17 @@ ${missing.map((e) => `| ${String(e.n).padStart(2, "0")} | \`${e.file}\` | ${e.ti
 2. **Принятые фото — ваш главный референс стиля.** В каждом новом чате прикрепите 2 из них и напишите: *«Match the exact photographic style of these two reference photos: same warm ivory background, same soft light from the upper left, same scale, same level of realism, same polished metal and diamond rendering»*. Рекомендуемая пара: \`aube-huggie-hoops-1.png\` и \`lumiere-riviere-bracelet-1.png\`.
 3. **Для Hero и editorial прикрепляйте фото украшения** — какое именно, указано в поле «Референсы» каждого задания. Hero-desktop и Hero-mobile и все портреты с моделью делайте **в одном чате**, чтобы внешность модели совпадала.
 4. Одно изображение — одно сообщение; копируйте блок PROMPT целиком. Просите максимальное разрешение и PNG.
-5. Края товарных кадров — ровный фон цвета слоновой кости (как в принятых: ≈ #F3EDE7), без виньетки; изделие целиком, не касается краёв.
+5. **Фон товарных кадров — идеально ровный #F5F1EA до самых краёв:** без градиента, виньетки и затемнённых углов. Изделие целиком в кадре, не касается краёв. При импорте я автоматически проверяю цвет фона, равномерность и касание краёв и сообщу о любом отклонении.
 6. Присылайте файлами или архивом (имена могут быть любыми: я определяю содержимое по виду), затем я импортирую их и проверю на сайте.
 
 **Принятые фото (референсы стиля и украшений):** ${accepted.map((e) => `\`${e.file}\``).join(", ")}.
 
 **Критерии приёмки для людей и рук:** естественная фактура кожи (поры, мягкий блеск, без «пластика»), по пять пальцев, корректная анатомия, украшение сидит физически правдоподобно; **без текста, логотипов и водяных знаков**.
 
-## 2. Открытый вопрос по Promesse Oval
-По каталогу это кольцо со **скрытым** ореолом (мелкие камни под центральным, видны сбоку). Присланный ранее кадр #16 показывал **видимый** ореол и паве на ободке. Если вы хотите принять тот вариант, пропустите это задание — я поправлю описание в каталоге. Если нет, генерируйте по заданию ниже.
+## 2. Решения, принятые для этого набора
+- Каталог остаётся из **16 изделий**; лишние кадры лежат отдельно в \`concepts/\` и в каталог не подключены.
+- Promesse Oval (№ 20): описание товара EV-P-002 не меняется; нужен кадр с **скрытым** ореолом (виден преимущественно сбоку), а не с видимым ореолом.
+- Порядок: сначала № 17, 18, 20, 21, 22, затем № 1–6.
 `);
 for (const e of missing) mm.push(renderEntry(e));
 writeFileSync("IMAGE_BRIEF_MISSING.md", mm.join("\n"));

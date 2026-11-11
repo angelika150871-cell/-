@@ -1,0 +1,66 @@
+{
+  "status": "reserve",
+  "note": "Не часть каталога. Названий, артикулов, цен и характеристик нет. Использование — только после отдельного согласования.",
+  "files": [
+    {
+      "file": "concept-01.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-02.webp",
+      "width": 1312,
+      "height": 1199
+    },
+    {
+      "file": "concept-03.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-04.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-05.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-06.webp",
+      "width": 1312,
+      "height": 1199
+    },
+    {
+      "file": "concept-07.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-08.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-09.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-10.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "concept-11.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-12.webp",
+      "width": 1254,
+      "height": 1254
+    }
+  ]
+}
