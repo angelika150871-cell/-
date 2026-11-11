@@ -4,7 +4,7 @@ import JewelImage from "@/components/JewelImage";
 import ProductCard from "@/components/ProductCard";
 import Reveal from "@/components/Reveal";
 import { getFeatured, getProduct, getSignature } from "@/lib/products";
-import { productImageKey } from "@/lib/images";
+import { firstAvailableKey, productImageKey } from "@/lib/images";
 import { CATEGORY_LABEL, formatPrice } from "@/lib/format";
 import type { Category } from "@/lib/types";
 
@@ -25,8 +25,8 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-ivory" aria-labelledby="hero-title">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[64%]">
           <div className="relative aspect-square w-full sm:aspect-[16/10] lg:aspect-auto lg:h-full">
-            <JewelImage src="hero/hero-desktop" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="(min-width:1024px) 64vw, 100vw" priority category="necklaces" cut="pear" className="hidden sm:block" />
-            <JewelImage src="hero/hero-mobile" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="100vw" priority category="necklaces" cut="pear" className="sm:hidden" />
+            <JewelImage src="hero/hero-desktop" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="(min-width:1024px) 64vw, 100vw" priority position="70% 50%" category="necklaces" cut="pear" className="hidden sm:block" />
+            <JewelImage src="hero/hero-mobile" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="100vw" priority position="50% 50%" category="necklaces" cut="pear" className="sm:hidden" />
             <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/4 bg-gradient-to-r from-ivory to-transparent lg:block" />
           </div>
         </div>
@@ -58,8 +58,8 @@ export default function HomePage() {
             return (
               <Reveal key={t.cat} delay={i * 0.06} className={`${t.span} ${i === 0 ? "col-span-2 lg:col-span-5" : i === 4 ? "col-span-2" : ""}`}>
                 <Link href={`/collections?category=${t.cat}`} className="group flex h-full flex-col">
-                  <div className={`relative overflow-hidden bg-sand ${i === 0 ? "aspect-[4/3] lg:aspect-auto" : "aspect-[4/5] sm:aspect-square"} ${i === 4 ? "!aspect-[16/9] lg:!aspect-auto" : ""} lg:min-h-0 lg:flex-1`}>
-                    <JewelImage src={productImageKey(p.slug, 1)} alt={`${CATEGORY_LABEL[t.cat]} ÉLAVÉRA`} sizes="(min-width:1024px) 40vw, 50vw" category={t.cat} cut={p.stone.cut} className="transition-transform duration-[900ms] ease-[var(--ease-lux)] group-hover:scale-[1.04]" />
+                  <div className={`relative overflow-hidden bg-ivory ${i === 0 ? "aspect-[4/3] lg:aspect-auto" : "aspect-square"} ${i === 4 ? "!aspect-[4/3] lg:!aspect-auto" : ""} lg:min-h-0 lg:flex-1`}>
+                    <JewelImage src={productImageKey(p.slug, 1)} alt={`${CATEGORY_LABEL[t.cat]} ÉLAVÉRA`} sizes="(min-width:1024px) 40vw, 50vw" fit="contain" category={t.cat} cut={p.stone.cut} className="transition-transform duration-[900ms] ease-[var(--ease-lux)] group-hover:scale-[1.04]" />
                   </div>
                   <div className="flex items-baseline justify-between gap-3 pt-3.5">
                     <div>
@@ -95,7 +95,7 @@ export default function HomePage() {
       <section data-dark className="relative overflow-hidden bg-wine text-ivory" aria-labelledby="story-title">
         <div className="grid lg:grid-cols-12">
           <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:col-span-7 lg:aspect-auto lg:min-h-[44rem]">
-            <JewelImage src="editorial/editorial-1" alt="Портрет в колье с бриллиантами, мягкий естественный свет" sizes="(min-width:1024px) 58vw, 100vw" category="necklaces" cut="oval" tone="dark" />
+            <JewelImage src="editorial/editorial-1" alt="Портрет в колье с бриллиантами, мягкий естественный свет" sizes="(min-width:1024px) 58vw, 100vw" position="50% 40%" category="necklaces" cut="oval" tone="dark" />
           </div>
           <div className="flex flex-col justify-center px-[clamp(1.25rem,4vw,4rem)] py-16 lg:col-span-5 lg:py-24 lg:pr-[clamp(2rem,6vw,7rem)]">
             <Reveal>
@@ -117,12 +117,12 @@ export default function HomePage() {
             <p className="lead mt-5">Главная линия дома: от кольца до рив’еры — одна идея, один ритм бриллиантов. Украшения можно носить по отдельности или как единый ансамбль.</p>
             <Link href="/collections" className="btn btn-solid mt-8">Смотреть Lumière</Link>
           </Reveal>
-          <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:col-span-8 lg:grid-cols-[1.25fr_1fr] lg:gap-8">
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:col-span-8 lg:grid-cols-2 lg:gap-8">
             {signature.slice(0, 4).map((p, i) => (
-              <Reveal key={p.id} delay={i * 0.08} className={i === 0 ? "col-span-2 lg:col-span-1 lg:row-span-2" : i === 1 ? "lg:mt-16" : i === 3 ? "col-span-2 lg:col-span-1 lg:-mt-10" : ""}>
+              <Reveal key={p.id} delay={i * 0.08} className={i === 0 ? "col-span-2 lg:col-span-1" : i === 1 ? "lg:mt-16" : i === 3 ? "col-span-2 lg:col-span-1 lg:mt-16" : ""}>
                 <Link href={`/product/${p.slug}`} className="group block">
-                  <div className={`relative overflow-hidden bg-sand ${i === 0 ? "aspect-[4/5] lg:aspect-[3/4]" : "aspect-square"} ${i === 3 ? "!aspect-[16/10] lg:!aspect-square" : ""}`}>
-                    <JewelImage src={productImageKey(p.slug, p.angles > 1 ? 2 : 1)} alt={`${p.name} — коллекция Lumière`} sizes="(min-width:1024px) 30vw, 50vw" category={p.category} cut={p.stone.cut} variant={p.angles > 1 ? 1 : 0} className="transition-transform duration-[900ms] ease-[var(--ease-lux)] group-hover:scale-[1.04]" />
+                  <div className="relative aspect-square overflow-hidden bg-ivory">
+                    <JewelImage src={firstAvailableKey(p.slug, p.angles)} alt={`${p.name} — коллекция Lumière`} sizes="(min-width:1024px) 30vw, 50vw" fit="contain" category={p.category} cut={p.stone.cut} className="transition-transform duration-[900ms] ease-[var(--ease-lux)] group-hover:scale-[1.04]" />
                   </div>
                   <div className="mt-3 flex items-baseline justify-between gap-3">
                     <h3 className="font-serif text-xl sm:text-2xl">{p.name}</h3>
@@ -161,7 +161,7 @@ export default function HomePage() {
       {/* ФИНАЛ */}
       <section data-dark className="relative isolate overflow-hidden bg-graphite text-ivory" aria-labelledby="final-title">
         <div className="absolute inset-0 -z-10">
-          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" category="engagement" cut="round" tone="dark" artSide="right" />
+          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" position="70% 50%" category="engagement" cut="round" tone="dark" artSide="right" />
           <div className="absolute inset-0 bg-gradient-to-r from-graphite/90 via-graphite/55 to-transparent" />
         </div>
         <div className="container-x flex min-h-[32rem] flex-col justify-center py-20 lg:min-h-[40rem]">

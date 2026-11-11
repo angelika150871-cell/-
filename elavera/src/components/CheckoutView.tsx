@@ -170,7 +170,7 @@ export default function CheckoutView() {
                 if (!p) return null;
                 return (
                   <li key={`${l.productId}${l.metal}${l.size}`} className="flex gap-4 py-4">
-                    <Link href={`/product/${p.slug}`} className="relative block h-24 w-20 shrink-0 overflow-hidden bg-sand"><JewelImage src={productImageKey(p.slug, 1)} alt={p.name} sizes="80px" category={p.category} cut={p.stone.cut} /></Link>
+                    <Link href={`/product/${p.slug}`} className="relative block h-24 w-24 shrink-0 overflow-hidden bg-ivory"><JewelImage src={productImageKey(p.slug, 1)} alt={p.name} sizes="96px" fit="contain" category={p.category} cut={p.stone.cut} /></Link>
                     <div className="flex min-w-0 flex-1 flex-col">
                       <div className="flex justify-between gap-2"><Link href={`/product/${p.slug}`} className="font-serif text-xl leading-tight">{p.name}</Link>
                         <button type="button" onClick={() => removeLine(l)} aria-label={`Удалить «${p.name}»`} className="-mr-2 -mt-2 flex h-10 w-10 shrink-0 items-center justify-center"><Trash2 size={17} strokeWidth={1.4} /></button></div>

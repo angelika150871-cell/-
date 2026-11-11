@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "images": "tsx scripts/generate-images.ts",
-    "prompts": "tsx scripts/build-prompts.ts"
+    "prompts": "tsx scripts/build-prompts.ts",
+    "import-images": "tsx scripts/import-images.ts"
   },
   "dependencies": {
     "@fontsource-variable/jost": "^5.3.0",

@@ -141,7 +141,19 @@ const tileSlugs = ["aube-pave-ring", "eclat-solitaire-studs", "cascade-riviere-n
 const featured = new Set(getFeatured().map((p) => p.slug));
 const products = getProducts();
 
-const PRODUCT_FRAMING = `FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.`;
+// Доля кадра, которую занимает изделие (на сайте квадрат показывается ЦЕЛИКОМ, object-contain, без обрезки)
+const FILL: Record<string, string> = {
+  rings: "the ring occupies about 58–62% of the frame width and about 58–62% of the frame height",
+  engagement: "the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus)",
+  earrings: "the pair as a whole occupies about 62–68% of the frame width and about 40–55% of the frame height",
+  necklaces: "the piece (chain and pendant or the full arc of the necklace) spans about 72–80% of the frame width",
+  bracelets: "the piece spans about 72–78% of the frame width",
+};
+const FILL_RU: Record<string, string> = {
+  rings: "кольцо ≈58–62% ширины и высоты кадра", engagement: "кольцо ≈58–62% ширины и ≈62–66% высоты кадра",
+  earrings: "пара целиком ≈62–68% ширины и ≈40–55% высоты кадра", necklaces: "изделие (цепочка/дуга колье) ≈72–80% ширины кадра", bracelets: "изделие ≈72–78% ширины кадра",
+};
+const framing = (cat: string) => `FRAMING (important): perfectly centered composition, one single piece (or one pair) only; ${FILL[cat]}; even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.`;
 
 interface Entry {
   n: number; id: string; kind: "hero" | "editorial" | "product";
@@ -335,7 +347,7 @@ SETTING AND CONSTRUCTION: ${s.setting}.
 METAL: 18k (750) ${METAL_EN[metal]}, high polish.
 POSE AND ANGLE: ${s.pose}.
 
-${PRODUCT_FRAMING}
+${framing(p.category)}
 
 LIGHT: large soft key light from the upper left, soft fill from the right, bright clean specular highlights on the polished metal, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible refraction and facet geometry, natural soft shadow. Camera: 100 mm macro lens, f/9 for full sharpness across the piece, shot from slightly above.
 
@@ -346,12 +358,12 @@ ${NEG}`;
     n, id: `product-${p.slug}`, kind: "product", file: `${p.slug}-1.png`, key: `products/${p.slug}-1`, path: `public/images/products/${p.slug}-1.webp`,
     title: `${p.name} (${p.id})`, productId: p.id, slug: p.slug,
     generateRatio: "1:1 (квадрат)", generateSize: "1536×1536 или 1024×1024",
-    siteRatios: "На сайте кадрируется по центру до 4:5 (мобильный каталог, карточка), 16:9 (плитка помолвочных), 1:1 и миниатюр 96×112; в лайтбоксе показывается целиком.",
-    safeZone: "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
-    textSpace: "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+    siteRatios: "Показывается ЦЕЛИКОМ (object-contain), без обрезки: квадратные карточки каталога, главная страница изделия, миниатюры корзины и поиска, плитки категорий, блок Signature. Фон под фото берётся из цвета краёв снимка.",
+    safeZone: `Украшение по центру, ${FILL_RU[p.category]}; ровные поля со всех сторон, ничто не касается краёв. Фон по всем четырём краям — ровный #F5F1EA.`,
+    textSpace: "Не требуется: на изображении нет текста; поверх фото на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
     usedOn, refs: [],
     description: `${p.name} · арт. ${p.id} · ${CATEGORY_LABEL[p.category]} · коллекция ${p.collection} · ${formatPrice(p.price)} · камни: ${CUT_LABEL[p.stone.cut].toLowerCase()}, ${formatCarat(p.stone.carat)}, ${p.stone.count} шт. · металл на фото — ${metalLabel.toLowerCase()} (металл по умолчанию на сайте; доступно: ${p.metals.filter((m) => m.available).map((m) => METAL_LABEL[m.metal].toLowerCase()).join(", ")}). ${s.subject}; ${s.stones}; ${s.setting}.`,
-    composition: `${s.pose}. Фон — бесшовная слоновая кость #F5F1EA с мягким переходом к #E9E0D5 по краям; мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.`,
+    composition: `${s.pose}. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.`,
     qc: [...s.qc, "Нет текста, клейм, логотипов и посторонних предметов", "Украшение целиком в кадре и по центру с полями"],
     prompt,
   });
@@ -372,22 +384,26 @@ md.push(`# ÉLAVÉRA — ТЗ на создание ${stoneCount} изображ
 
 **Правила работы в ChatGPT:**
 - Одно изображение — одно сообщение. Копируйте блок «PROMPT» целиком (он самодостаточен; стилевой блок и запреты уже внутри).
-- Просите самое большое доступное разрешение и формат **PNG** (или JPG высокого качества). Соотношение сторон — как в поле «Генерировать». Окончательное кадрирование под сайт (4:5, 16:9, 1:1 и т. д.) выполняется при импорте — в центральной «безопасной зоне» кадра.
+- Просите самое большое доступное разрешение и формат **PNG** (или JPG высокого качества). Соотношение сторон — как в поле «Генерировать». Обрезки при импорте нет: товары показываются целиком, баннеры кадрируются в коде — поэтому соблюдайте «безопасную зону».
 - Для Hero и editorial с моделью генерируйте **в одном чате**, чтобы ChatGPT помнил внешность модели и стиль. Если результат не подходит — просите точечную правку («keep everything, fix only …»), а не новую генерацию с нуля.
 - Если ChatGPT добавил текст, логотип, лишние украшения, искажённые пальцы или несимметричную пару — перегенерируйте. Не принимайте «почти нормально».
-- Названия файлов — строго как в поле «Файл». Положите готовые файлы в папку \`elavera/incoming-images/\` (или пришлите их в чат): при импорте я конвертирую их в WebP, обрежу под ратио блоков и добавлю в \`public/images/manifest.json\`. До импорта на сайте остаются честные заглушки.
+- Названия файлов — строго как в поле «Файл». Положите готовые файлы в папку \`elavera/incoming-images/\` (или пришлите их в чат) и выполните \`npm run import-images\` — скрипт конвертирует их в WebP, вычислит цвет краёв товарного фото и добавит ключи в \`public/images/manifest.json\`. До импорта на сайте остаются честные заглушки. Обрезки при импорте нет.
 
 **Единый визуальный стиль ÉLAVÉRA** (повторён внутри каждого промпта):
 - Палитра: слоновая кость #F5F1EA, молочный #FCFAF7, беж #E9E0D5, шампань #C5AC86; винный #482E35 и графит #242220 — только как акценты.
 - Золото полированное 750 пробы: белое — яркое, чуть тёплое серебристо-белое (не серое и не синее); жёлтое — приглушённое шампань-жёлтое; розовое — мягкое розово-медное.
 - Бриллианты: правдоподобная геометрия огранки, чёткие белые блики и лишь несколько мягких спектральных вспышек; без звёзд-фильтров, bloom и блёсток.
 - Свет: большой мягкий ключ сверху-слева, мягкое заполнение справа, едва заметная контактная тень.
-- Фон товарных фото: бесшовная слоновая кость без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
+- Фон товарных фото: ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки), без реквизита. Модели: «модель бренда» — одна и та же внешность во всех портретах.
 - Запрещено на любом изображении: текст, логотипы, водяные знаки, клейма, чужие бренды.
 
 **Критерии приёмки для моделей:** естественная фактура кожи (поры, мягкий блеск, без «пластика»), по пять пальцев на руке, корректная анатомия уха, шеи и ключиц, украшение сидит физически правдоподобно.
 
-**Известное ограничение сайта (до импорта учтите):** товары с несколькими ракурсами (\`angles = 3\`: 9 изделий) на странице товара показывают ракурсы 2–3, а блок Signature на главной берёт ракурс 2. В это ТЗ входит только ракурс 1 (22 изображения), поэтому для этих мест пока останутся заглушки, пока не будут созданы дополнительные кадры либо пока сайт не будет настроен на показ ракурса 1.
+**Как сайт показывает изображения:**
+- Товарные фото (№ 7–22) показываются **целиком** (object-contain) в квадратных рамках; фон под фото берётся из цвета краёв снимка, поэтому **края кадра должны быть ровного цвета #F5F1EA** и ничто не должно касаться краёв.
+- Масштаб изделий единый по весу в кадре, но зависит от типа: кольца ≈ 60% кадра, пара серёг ≈ 65% ширины, колье и браслеты ≈ 75% ширины (см. поле «Безопасная зона» в каждом задании).
+- Hero и editorial (№ 1–6) показываются через object-cover с индивидуальным object-position; соблюдайте «безопасную зону» и «свободное место под текст».
+- **Дополнительные ракурсы** сейчас не создаются: галерея показывает только существующие кадры, без дублей миниатюр и без заглушек. Если позже добавить \`<slug>-2.png\` и \`<slug>-3.png\` и импортировать их, они появятся в галерее автоматически.
 
 ## Сводка
 

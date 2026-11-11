@@ -46,7 +46,7 @@ export default function Lightbox({ items, index, onIndex, onClose, category, cut
       <div className="relative min-h-0 flex-1 px-2 pb-4 sm:px-16">
         <div ref={ref} className={`relative mx-auto h-full max-w-[min(100%,64rem)] overflow-hidden ${zoom ? "cursor-zoom-out" : "cursor-zoom-in"}`} onClick={(e) => { move(e); setZoom((z) => !z); }} onMouseMove={move}>
           <div className="absolute inset-0 transition-transform duration-300 ease-[var(--ease-lux)]" style={{ transform: zoom ? "scale(2.2)" : "scale(1)", transformOrigin: origin }}>
-            <JewelImage src={items[index].key} alt={items[index].alt} sizes="100vw" category={category} cut={cut} variant={index} className="!object-contain" />
+            <JewelImage src={items[index].key} alt={items[index].alt} sizes="100vw" category={category} cut={cut} variant={index} fit="contain" />
           </div>
         </div>
         {n > 1 && (

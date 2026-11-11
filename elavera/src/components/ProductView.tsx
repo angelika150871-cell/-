@@ -5,7 +5,7 @@ import { Check, ChevronLeft, ChevronRight, Gift, Heart, Maximize2, RotateCcw, Tr
 import type { Metal, Product } from "@/lib/types";
 import { CATEGORY_LABEL, CUT_LABEL, METAL_LABEL, METAL_SWATCH, STOCK_LABEL, formatCarat, formatPrice } from "@/lib/format";
 import { defaultMetal } from "@/lib/products";
-import { productImageKey } from "@/lib/images";
+import { availableKeys } from "@/lib/images";
 import { useStore } from "@/lib/store";
 import JewelImage from "./JewelImage";
 import Lightbox from "./Lightbox";
@@ -25,10 +25,11 @@ export default function ProductView({ product: p }: { product: Product }) {
   const touch = useRef<number | null>(null);
 
   const soldOut = p.stock === "sold_out";
-  const items = Array.from({ length: p.angles }, (_, i) => ({
-    key: productImageKey(p.slug, i + 1),
-    alt: `${p.name} — ${["основной ракурс", "ракурс сбоку", "деталь закрепки"][i] ?? `ракурс ${i + 1}`}`,
-  }));
+  // только реально существующие ракурсы; если фото ещё нет — один основной кадр (заглушка)
+  const items = availableKeys(p.slug, p.angles).map((key) => {
+    const n = Number(key.split("-").pop());
+    return { key, alt: `${p.name} — ${["основной ракурс", "ракурс сбоку", "деталь закрепки"][n - 1] ?? `ракурс ${n}`}` };
+  });
   const fav = ready && isFavorite(p.id);
 
   useEffect(() => {
@@ -58,12 +59,12 @@ export default function ProductView({ product: p }: { product: Product }) {
         {/* ГАЛЕРЕЯ */}
         <div className="flex flex-col gap-3 lg:sticky lg:top-28 lg:flex-row-reverse lg:self-start">
           <div
-            className="group relative aspect-[4/5] flex-1 overflow-hidden bg-sand lg:aspect-[5/6]"
+            className="group relative aspect-square flex-1 overflow-hidden bg-ivory"
             onTouchStart={(e) => (touch.current = e.touches[0].clientX)}
             onTouchEnd={(e) => { if (touch.current == null || items.length < 2) return; const dx = e.changedTouches[0].clientX - touch.current; if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1); touch.current = null; }}
           >
             <button type="button" onClick={() => setZoom(true)} className="absolute inset-0 z-[1] cursor-zoom-in" aria-label="Увеличить изображение" />
-            <JewelImage key={items[idx].key} src={items[idx].key} alt={items[idx].alt} sizes="(min-width:1024px) 52vw, 100vw" priority category={p.category} cut={p.stone.cut} variant={idx} />
+            <JewelImage key={items[idx].key} src={items[idx].key} alt={items[idx].alt} sizes="(min-width:1024px) 52vw, 100vw" priority fit="contain" category={p.category} cut={p.stone.cut} variant={idx} />
             <span className="pointer-events-none absolute bottom-3 right-3 z-[2] flex h-11 w-11 items-center justify-center rounded-full bg-milk/85"><Maximize2 size={18} strokeWidth={1.4} /></span>
             {items.length > 1 && (
               <>
@@ -76,8 +77,8 @@ export default function ProductView({ product: p }: { product: Product }) {
             <ul className="flex gap-3 lg:flex-col" aria-label="Ракурсы">
               {items.map((it, i) => (
                 <li key={it.key} className="w-20 sm:w-24 lg:w-24">
-                  <button type="button" onClick={() => setIdx(i)} aria-label={`Показать: ${it.alt}`} aria-current={i === idx} className={`relative block aspect-square w-full overflow-hidden bg-sand outline outline-1 outline-offset-2 transition ${i === idx ? "outline-graphite" : "outline-transparent opacity-80 hover:opacity-100"}`}>
-                    <JewelImage src={it.key} alt="" sizes="96px" category={p.category} cut={p.stone.cut} variant={i} />
+                  <button type="button" onClick={() => setIdx(i)} aria-label={`Показать: ${it.alt}`} aria-current={i === idx} className={`relative block aspect-square w-full overflow-hidden bg-ivory outline outline-1 outline-offset-2 transition ${i === idx ? "outline-graphite" : "outline-transparent opacity-80 hover:opacity-100"}`}>
+                    <JewelImage src={it.key} alt="" sizes="96px" fit="contain" category={p.category} cut={p.stone.cut} variant={i} />
                   </button>
                 </li>
               ))}

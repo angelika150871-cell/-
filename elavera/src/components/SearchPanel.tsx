@@ -36,7 +36,7 @@ export default function SearchPanel({ open, onClose }: { open: boolean; onClose:
         {results.map((p) => (
           <li key={p.id}>
             <Link href={`/product/${p.slug}`} onClick={close} className="flex items-center gap-4 py-3">
-              <span className="relative block h-20 w-20 shrink-0 overflow-hidden bg-sand"><JewelImage src={productImageKey(p.slug, 1)} alt="" sizes="80px" category={p.category} cut={p.stone.cut} /></span>
+              <span className="relative block h-20 w-20 shrink-0 overflow-hidden bg-ivory"><JewelImage src={productImageKey(p.slug, 1)} alt="" sizes="80px" fit="contain" category={p.category} cut={p.stone.cut} /></span>
               <span className="min-w-0">
                 <span className="block font-serif text-xl leading-tight">{p.name}</span>
                 <span className="block text-sm text-ink-soft">{CATEGORY_LABEL[p.category]} · {formatPrice(p.price)}</span>

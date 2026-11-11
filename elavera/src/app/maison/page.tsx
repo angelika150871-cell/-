@@ -24,7 +24,7 @@ export default function MaisonPage() {
       {/* 1. HERO */}
       <section data-dark className="relative isolate flex min-h-[calc(100svh-4.5rem)] items-end overflow-hidden bg-wine text-ivory" aria-labelledby="m-title">
         <div className="absolute inset-0 -z-10">
-          <JewelImage src="editorial/editorial-2" alt="Руки в тёплом свете с бриллиантовым кольцом" sizes="100vw" priority category="engagement" cut="round" tone="dark" artSide="right" />
+          <JewelImage src="editorial/editorial-2" alt="Руки в тёплом свете с бриллиантовым кольцом" sizes="100vw" priority position="50% 30%" category="engagement" cut="round" tone="dark" artSide="right" />
           <div className="absolute inset-0 bg-gradient-to-t from-graphite/85 via-graphite/25 to-transparent" />
         </div>
         <div className="container-x pb-14 pt-40 lg:pb-20">
@@ -47,7 +47,7 @@ export default function MaisonPage() {
           </Reveal>
           <Reveal delay={0.1} className="lg:col-span-5 lg:col-start-8 lg:mt-24">
             <div className="relative aspect-[4/5] bg-sand">
-              <JewelImage src="editorial/editorial-3" alt="Портрет: серьги-капли с бриллиантами в мягком свете" sizes="(min-width:1024px) 40vw, 100vw" category="earrings" cut="pear" />
+              <JewelImage src="editorial/editorial-3" alt="Портрет: серьги-капли с бриллиантами в мягком свете" sizes="(min-width:1024px) 40vw, 100vw" position="60% 45%" category="earrings" cut="pear" />
             </div>
             <p className="mt-3 text-[0.875rem] text-ink-soft">Бриллианты живут рядом с лицом: свет должен возвращаться к тому, кто их носит.</p>
           </Reveal>

@@ -31,8 +31,8 @@ export default function CartDrawer() {
               if (!p) return null;
               return (
                 <li key={`${l.productId}${l.metal}${l.size}`} className="flex gap-4 py-5">
-                  <Link href={`/product/${p.slug}`} onClick={close} className="relative block h-28 w-24 shrink-0 overflow-hidden bg-sand">
-                    <JewelImage src={productImageKey(p.slug, 1)} alt={p.name} sizes="96px" category={p.category} cut={p.stone.cut} />
+                  <Link href={`/product/${p.slug}`} onClick={close} className="relative block h-24 w-24 shrink-0 overflow-hidden bg-ivory">
+                    <JewelImage src={productImageKey(p.slug, 1)} alt={p.name} sizes="96px" fit="contain" category={p.category} cut={p.stone.cut} />
                   </Link>
                   <div className="flex min-w-0 flex-1 flex-col">
                     <Link href={`/product/${p.slug}`} onClick={close} className="font-serif text-xl leading-tight">{p.name}</Link>

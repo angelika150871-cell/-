@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { hasImage, imageUrl } from "@/lib/images";
+import { hasImage, imageBg, imageUrl } from "@/lib/images";
 import JewelArt from "./JewelArt";
 import type { Category, Cut } from "@/lib/types";
 
@@ -10,6 +10,14 @@ interface Props {
   sizes: string;
   priority?: boolean;
   className?: string;
+  /**
+   * "contain" — предметные фото: изделие целиком, без обрезки; фон под фото берётся
+   * из manifest (цвет краёв снимка), поэтому границ не видно.
+   * "cover" — баннеры и editorial, с индивидуальным object-position.
+   */
+  fit?: "cover" | "contain";
+  /** CSS object-position для cover, напр. "70% 50%" */
+  position?: string;
   /** параметры иллюстрации-заглушки */
   category?: Category;
   cut?: Cut;
@@ -21,9 +29,16 @@ interface Props {
 }
 
 /** Рендерит готовую фотографию либо честную иллюстрацию-заглушку. Родитель должен быть relative. */
-export default function JewelImage({ src, alt, sizes, priority, className = "", category = "rings", cut = "round", variant = 0, tone = "light", artSide = "center" }: Props) {
+export default function JewelImage({ src, alt, sizes, priority, className = "", fit = "cover", position, category = "rings", cut = "round", variant = 0, tone = "light", artSide = "center" }: Props) {
   if (hasImage(src)) {
-    return <Image src={imageUrl(src)} alt={alt} fill sizes={sizes} priority={priority} className={`object-cover ${className}`} />;
+    if (fit === "contain") {
+      return (
+        <div className="absolute inset-0" style={{ background: imageBg(src) }}>
+          <Image src={imageUrl(src)} alt={alt} fill sizes={sizes} priority={priority} className={`object-contain ${className}`} />
+        </div>
+      );
+    }
+    return <Image src={imageUrl(src)} alt={alt} fill sizes={sizes} priority={priority} style={position ? { objectPosition: position } : undefined} className={`object-cover ${className}`} />;
   }
   return (
     <div className={`absolute inset-0 overflow-hidden ${className}`} role="img" aria-label={`${alt} (иллюстрация-заглушка до загрузки фотографии)`}>
