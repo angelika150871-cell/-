@@ -269,7 +269,8 @@ const raw: Product[] = [
     collection: "Promesse",
     category: "engagement",
     price: 9800,
-    metals: metals(["white", "yellow", "rose"]),
+    // жёлтое золото первым: на основном фото изделие показано в жёлтом золоте (металл по умолчанию)
+    metals: metals(["yellow", "white", "rose"]),
     sizes: sizes(47, 60, [47, 48, 55]),
     stone: { cut: "round", carat: 1.00, count: 1, color: "F", clarity: "VVS–VS" },
     material: "Платина или золото 750 пробы",

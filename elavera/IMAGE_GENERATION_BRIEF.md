@@ -1068,7 +1068,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 - Поиск (панель шапки) (`любая страница`): Миниатюра результата поиска
 - Карточка украшения (`/product/*`): Блок «Похожие украшения» (когда изделие попадает в подборку)
 
-**Украшение:** Помолвочное кольцо Promesse Round · арт. EV-P-001 · Помолвочные кольца · коллекция Promesse · 9 800 € · камни: круглая, 1,00 кт, 1 шт. · металл на фото — белое золото (металл по умолчанию на сайте; доступно: белое золото, жёлтое золото, розовое золото). a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top; one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm), exceptional cut with crisp facet symmetry; six-claw high setting with slim claws and an open gallery; refined and light; plain band without side stones.
+**Украшение:** Помолвочное кольцо Promesse Round · арт. EV-P-001 · Помолвочные кольца · коллекция Promesse · 9 800 € · камни: круглая, 1,00 кт, 1 шт. · металл на фото — жёлтое золото (металл по умолчанию на сайте; доступно: жёлтое золото, белое золото, розовое золото). a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top; one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm), exceptional cut with crisp facet symmetry; six-claw high setting with slim claws and an open gallery; refined and light; plain band without side stones.
 
 **Композиция, ракурс, свет, фон:** the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible. Фон — ровная бесшовная слоновая кость #F5F1EA по краям кадра (без виньетки); мягкий ключевой свет сверху-слева, заполняющий справа, едва заметная контактная тень; без реквизита.
 
@@ -1086,7 +1086,7 @@ Create a photorealistic luxury jewelry product photograph in square 1:1 format f
 SUBJECT: a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top. This is catalog item EV-P-001 "promesse round solitaire" (engagement ring, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm), exceptional cut with crisp facet symmetry.
 SETTING AND CONSTRUCTION: six-claw high setting with slim claws and an open gallery; refined and light; plain band without side stones.
-METAL: 18k (750) white gold, high polish.
+METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible.
 
 FRAMING (important): perfectly centered composition, one single piece (or one pair) only; the ring occupies about 58–62% of the frame width and about 62–66% of the frame height (the stone is the visual focus); even margins around it. The website shows this square image in full without cropping, so nothing may touch or cross the frame edges. BACKGROUND: a uniform seamless warm ivory exactly #F5F1EA along all four edges of the frame (a very soft, barely perceptible light falloff is allowed only in the middle behind the piece); no vignette, no darker corners, no horizon line, no visible table edge, no props, no reflections of other objects. The picture is placed on a #F5F1EA page without a border, so the edges must be the flat ivory colour. Very soft, subtle contact shadow directly under the piece only.

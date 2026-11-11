@@ -1,1 +1,29 @@
-{ "generatedAt": null, "images": [] }
+{
+  "generatedAt": "2026-11-11T18:10:38.060Z",
+  "images": [
+    "products/aube-huggie-hoops-1",
+    "products/aube-oval-pendant-1",
+    "products/aube-pave-ring-1",
+    "products/cascade-riviere-necklace-1",
+    "products/eclat-solitaire-pendant-1",
+    "products/eclat-solitaire-studs-1",
+    "products/lumiere-oval-halo-ring-1",
+    "products/lumiere-pear-drop-earrings-1",
+    "products/lumiere-riviere-bracelet-1",
+    "products/orbite-toi-et-moi-ring-1",
+    "products/promesse-round-solitaire-1"
+  ],
+  "bg": {
+    "products/aube-huggie-hoops-1": "#F2ECE7",
+    "products/aube-oval-pendant-1": "#F2EDE5",
+    "products/aube-pave-ring-1": "#F3EDE8",
+    "products/cascade-riviere-necklace-1": "#F2ECE7",
+    "products/eclat-solitaire-pendant-1": "#F1ECE6",
+    "products/eclat-solitaire-studs-1": "#F1ECE6",
+    "products/lumiere-oval-halo-ring-1": "#F1ECE5",
+    "products/lumiere-pear-drop-earrings-1": "#F2ECE5",
+    "products/lumiere-riviere-bracelet-1": "#F3EDE8",
+    "products/orbite-toi-et-moi-ring-1": "#F2EAE3",
+    "products/promesse-round-solitaire-1": "#F6F0EA"
+  }
+}
