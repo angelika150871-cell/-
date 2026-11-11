@@ -160,11 +160,12 @@ export default function HomePage() {
 
       {/* ФИНАЛ */}
       <section data-dark className="relative isolate overflow-hidden bg-graphite text-ivory" aria-labelledby="final-title">
-        <div className="absolute inset-0 -z-10">
-          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" position="70% 50%" category="engagement" cut="round" tone="dark" artSide="right" />
-          <div className="absolute inset-0 bg-gradient-to-r from-graphite/90 via-graphite/55 to-transparent" />
+        {/* на телефоне фото занимает верх секции, текст лежит под ним; на ≥640 px — фон секции */}
+        <div className="absolute inset-x-0 top-0 -z-10 h-[56%] sm:inset-0 sm:h-auto">
+          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" position="78% 30%" category="engagement" cut="round" tone="dark" artSide="right" />
+          <div className="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent sm:bg-gradient-to-r sm:from-graphite/90 sm:via-graphite/55 sm:to-transparent" />
         </div>
-        <div className="container-x flex min-h-[32rem] flex-col justify-center py-20 lg:min-h-[40rem]">
+        <div className="container-x flex min-h-[40rem] flex-col justify-end py-12 sm:min-h-[32rem] sm:justify-center sm:py-20 lg:min-h-[40rem]">
           <Reveal className="max-w-2xl">
             <p className="eyebrow">Искусство оставаться незабываемой</p>
             <h2 id="final-title" className="display mt-5 !text-[clamp(2.5rem,5.5vw,5rem)]">Ваш свет уже ждёт</h2>

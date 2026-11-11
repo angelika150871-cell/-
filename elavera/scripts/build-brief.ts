@@ -477,7 +477,7 @@ mm.push(`# ÉLAVÉRA — ТЗ на недостающие изображения
 
 ## 0. Что принято и что осталось
 
-Принято и работает на сайте: **${accepted.length} из ${entries.length}** (все — товарные фото). Осталось: **${missing.filter((e) => e.kind !== "product").length} имиджевых кадров** (Hero и editorial) и **${missing.filter((e) => e.kind === "product").length} товарных**.
+Принято и работает на сайте: **${accepted.length} из ${entries.length}**. Осталось: **${missing.filter((e) => e.kind !== "product").length} имиджевых кадров** (Hero и editorial) и **${missing.filter((e) => e.kind === "product").length} товарных**.
 
 | № | Файл | Что это | Ратио |
 |---|---|---|---|
