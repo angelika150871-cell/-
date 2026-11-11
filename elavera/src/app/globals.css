@@ -1,0 +1,87 @@
+@import "@fontsource/cormorant-garamond/latin-400.css";
+@import "@fontsource/cormorant-garamond/cyrillic-400.css";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/cyrillic-500.css";
+@import "@fontsource/cormorant-garamond/latin-400-italic.css";
+@import "@fontsource/cormorant-garamond/cyrillic-400-italic.css";
+@import "@fontsource-variable/jost/index.css";
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #f5f1ea;
+  --color-milk: #fcfaf7;
+  --color-graphite: #242220;
+  --color-champagne: #c5ac86;
+  --color-champagne-deep: #8a7149; /* контрастный вариант для текста на светлом (≥4.5:1) */
+  --color-wine: #482e35;
+  --color-sand: #e9e0d5;
+  --color-ink-soft: #5b5650; /* вторичный текст на светлом, ≥7:1 */
+  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Jost Variable", "Helvetica Neue", Arial, sans-serif;
+  --ease-lux: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--color-milk);
+    color: var(--color-graphite);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 400; line-height: 1.05; letter-spacing: -0.01em; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--color-wine); outline-offset: 3px; border-radius: 2px; }
+  .on-dark :focus-visible, [data-dark] :focus-visible { outline-color: var(--color-champagne); }
+  ::selection { background: var(--color-champagne); color: var(--color-graphite); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+}
+
+@layer components {
+  .container-x { width: 100%; max-width: 1560px; margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 4rem); }
+  .eyebrow { font-family: var(--font-sans); font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--color-champagne-deep); font-weight: 500; }
+  .on-dark .eyebrow, [data-dark] .eyebrow { color: var(--color-champagne); }
+  .display { font-family: var(--font-serif); font-size: clamp(2.5rem, 6.4vw, 6rem); line-height: 0.98; letter-spacing: -0.02em; }
+  .h2 { font-family: var(--font-serif); font-size: clamp(2rem, 4.4vw, 3.75rem); line-height: 1.04; }
+  .lead { font-size: clamp(1.0625rem, 1.5vw, 1.25rem); line-height: 1.6; color: var(--color-ink-soft); max-width: 38em; }
+  [data-dark] .lead { color: rgba(245, 241, 234, 0.78); }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 3rem; padding: 0.8rem 1.9rem;
+    font-size: 0.8125rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; border: 1px solid var(--color-graphite);
+    transition: background-color 0.3s var(--ease-lux), color 0.3s var(--ease-lux), border-color 0.3s var(--ease-lux); text-align: center;
+  }
+  .btn-solid { background: var(--color-graphite); color: var(--color-milk); }
+  .btn-solid:hover:not(:disabled) { background: var(--color-wine); border-color: var(--color-wine); }
+  .btn-line { background: transparent; color: var(--color-graphite); }
+  .btn-line:hover:not(:disabled) { background: var(--color-graphite); color: var(--color-milk); }
+  [data-dark] .btn-line { color: var(--color-ivory); border-color: rgba(245, 241, 234, 0.6); }
+  [data-dark] .btn-line:hover:not(:disabled) { background: var(--color-ivory); color: var(--color-graphite); }
+  [data-dark] .btn-solid { background: var(--color-champagne); color: var(--color-graphite); border-color: var(--color-champagne); }
+  [data-dark] .btn-solid:hover:not(:disabled) { background: var(--color-ivory); border-color: var(--color-ivory); }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .link-u { background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; transition: background-size 0.4s var(--ease-lux); }
+  .link-u:hover { background-size: 0 1px; background-position: 100% 100%; }
+  .hair { border-color: rgba(36, 34, 32, 0.14); }
+  [data-dark] .hair { border-color: rgba(245, 241, 234, 0.18); }
+  .field {
+    width: 100%; min-height: 3rem; padding: 0.7rem 0.95rem; background: var(--color-milk); border: 1px solid rgba(36, 34, 32, 0.35);
+    font-size: 1rem; color: var(--color-graphite); transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .field:hover { border-color: var(--color-graphite); }
+  .field[aria-invalid="true"] { border-color: #8f2d2d; }
+  .iconbtn { display: inline-flex; width: 2.75rem; height: 2.75rem; align-items: center; justify-content: center; position: relative; transition: opacity .2s; }
+  .iconbtn:hover { opacity: 0.6; }
+}
+
+/* Редкий, ненавязчивый шум плёнки не используется — чистые поверхности. */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+@keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
+.pop { animation: pop 0.45s var(--ease-lux); }
