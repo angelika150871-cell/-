@@ -8,8 +8,8 @@
 
 | № | Файл | Что это | Ратио |
 |---|---|---|---|
-| 01 | `hero-desktop.png` | Hero (десктоп): модель в колье Cascade Rivière | 3:2 |
-| 02 | `hero-mobile.png` | Hero (мобильная версия): та же модель и колье | 2:3 |
+| 01 | `hero-desktop.png` | Hero (десктоп): модель с видимым лицом в колье Cascade Rivière | 3:2 |
+| 02 | `hero-mobile.png` | Hero (мобильная версия): та же модель и колье, лицо видно | 2:3 |
 | 03 | `editorial-1.png` | Editorial Story: портрет с подвеской Éclat Solitaire | 1:1 |
 | 04 | `editorial-2.png` | Дом ÉLAVÉRA, первый экран: руки с кольцом Promesse Round | 3:2 |
 | 05 | `editorial-3.png` | Дом ÉLAVÉRA, история: портрет с серьгами Lumière | 2:3 |
@@ -43,8 +43,8 @@
 
 | № | Эскиз подходит | Исправить в финале |
 |---|---|---|
-| 01 Hero desktop | Модель справа, левые ~40% спокойный беж, шёлк, свет окна | Убрать серьгу-пусету (других украшений нет). Колье: одиночные круглые бриллианты в 4-лапковых корзинах, градуированные от центра, как `cascade-riviere-necklace-1.png` (на эскизе камни выглядят как кластеры с ореолами). Лицо видно: допустимо, если фотореалистично (иначе обрезать по губам, как в ТЗ) |
-| 02 Hero mobile | Та же модель, колье по центру | Те же замечания; колье строго по центру в пределах квадрата y 30–72% |
+| 01 Hero desktop | Модель справа, левые ~40% спокойный беж, шёлк, свет окна, лицо видно (**решение принято: лицо не обрезается**) | Убрать серьгу-пусету (других украшений нет, мочки без серёг). Колье: 52 круглых бриллианта в один ряд, градуированные от центра, каждый в своей 4-лапковой корзине, как `cascade-riviere-necklace-1.png`; на эскизе камни выглядят как кластеры с ореолами — **так нельзя** |
+| 02 Hero mobile | Та же модель, колье по центру | Те же замечания; голова и колье внутри центрального квадрата (волосы не выше y 20%, колье не ниже y 78%) |
 | 03 Editorial-1 | Подвеска одна, тонкая цепочка, винный бархат | Убрать серьгу; формат строго 1:1; подвеска — как `eclat-solitaire-pendant-1.png` |
 | 04 Editorial-2 | Естественная рука, винный бархат | Кольцо — **жёлтое золото**, 6 лапок, тонкий гладкий ободок (как `promesse-round-solitaire-1.png`), на эскизе оно белое. Нижние ~38% кадра — пустой тёмный фон под заголовок. Обе руки, компактная группа |
 | 05 Editorial-3 | Форма серьги-груши верная | Формат **2:3 портрет** (эскиз горизонтальный). Серьга: малый круглый сверху, крошечный на звене, груша в 6-лапковой корзине (как `lumiere-pear-drop-earrings-1.png`) |
@@ -59,7 +59,7 @@
 
 ---
 
-## № 01. Hero (десктоп): модель в колье Cascade Rivière
+## № 01. Hero (десктоп): модель с видимым лицом в колье Cascade Rivière
 
 | Поле | Значение |
 |---|---|
@@ -67,35 +67,36 @@
 | Путь в проекте (после импорта) | `public/images/hero/hero-desktop.webp` |
 | Ключ в manifest.json | `hero/hero-desktop` |
 | Генерировать в | 3:2 (горизонтальный), 1536×1024 или выше |
-| Как кадрируется на сайте | Контейнер справа 64% ширины экрана и высотой на весь первый экран: ≈1,15:1 на 1440×900, ≈1,26:1 на 1920×1080, 16:10 на планшете (640–1023 px). Кадрируется по центру (object-cover), поэтому с боков обрезается до ~12%. |
+| Как кадрируется на сайте | Контейнер справа 64% ширины экрана и высотой на весь первый экран: ≈1,15:1 на 1440×900, ≈1,26:1 на 1920×1080, 16:10 на планшете (640–1023 px). Кадрируется object-cover с object-position 70% 50%: слева обрезается ~16%, справа ~7%, по высоте кадр виден целиком. |
 
 **Где используется:**
 - Главная (`/`): Hero — первый экран (≥640 px)
 
-**Украшение:** Колье-ривьера Cascade Rivière (EV-N-001): белое золото 750, 52 круглых бриллианта, плавно уменьшающихся от центра к замку, у каждого своя корзина из 4 лапок, длина 42 см, лежит на основании шеи над ключицами.
+**Украшение:** Колье-ривьера Cascade Rivière (EV-N-001): белое золото 750, ровно 52 круглых бриллианта в один непрерывный ряд, постепенно уменьшающихся от центра к застёжке, у каждого своя корзина из 4 лапок, длина 42 см. Никаких ореолов, кластеров и подвесок. Других украшений на модели нет.
 
-**Композиция, ракурс, свет, фон:** Тесный бьюти-кадр: шея, ключицы и плечи модели; лицо обрезано по линии нижней губы/подбородка. Волосы убраны в низкий гладкий пучок, шея открыта. На модели — шёлковый топ цвета слоновой кости/шампань с открытыми плечами. Мягкий свет окна слева, естественная фактура кожи. Фон — тёплый размытый беж.
+**Композиция, ракурс, свет, фон:** Полноценная ювелирная рекламная фотография: модель справа, лицо видно целиком, поворот головы в три четверти влево (к свободному пространству под текст), мягкий выразительный взгляд. Волосы в низком гладком пучке с несколькими живыми прядями у лица, шея и уши открыты (мочки без серёг). Шёлковый топ цвета слоновой кости/шампань с открытыми плечами. Мягкий свет окна слева, естественная фактура кожи. Фон — тёплый размытый беж.
 
-**Безопасная зона:** Всё украшение и подбородок — в области x 42–88%, y 28–80% кадра. Левые ~15% кадра плавно растворяются в слоновую кость градиентом сайта.
+**Безопасная зона:** Голова, шея и колье — в области x 48–92%, y 6–82%. Центр лица ≈ x 70%, y 26%; центр колье ≈ x 70%, y 66%. Левые ~15% кадра растворяются в слоновую кость градиентом сайта.
 
-**Свободное место под текст:** Левые ~40% кадра: пустой, мягко размытый тёплый фон слоновой кости/беж без деталей и без теней — туда на сайте накладывается заголовок «Свет, который остаётся с вами».
+**Свободное место под текст:** Левые ~40% кадра (x 0–40%): пустой, мягко размытый тёплый фон слоновой кости/беж без предметов, деталей и теней — туда на сайте накладываются заголовок «Свет, который остаётся с вами» и кнопки.
 
-**Референсы:** Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье
+**Референсы:** Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье; Эскиз 01_hero-desktop-preview.jpg — только как референс композиции и образа модели (серьгу убрать, колье исправить)
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
 **PROMPT (копировать целиком):**
 
 ```text
-Create a photorealistic luxury fashion campaign photograph in wide 3:2 landscape format for the hero banner of a premium European diamond jewelry house.
+Create a photorealistic luxury jewelry advertising photograph in wide 3:2 landscape format for the hero banner of a premium European diamond jewelry house. It must look like a real, expensive high-end campaign photograph shot by a professional fashion photographer.
 
-SUBJECT: an elegant woman's neck, collarbones and bare shoulders, wearing a platinum-look polished white-gold rivière necklace of 52 round brilliant-cut diamonds (about 4.10 ct total) in individual four-claw baskets, graduated in size from the largest stones at the centre to smaller stones toward the clasp, forming one continuous flexible line of light that rests at the base of the neck just above the collarbones, symmetrical around the neck. The woman is the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression; her face is cropped out at the lower lip/chin line so the picture is about the neck and décolleté. Hair gathered in a sleek low chignon so the neck and shoulders are fully free. She wears an off-the-shoulder ivory-champagne silk top with soft natural folds. Natural anatomy: correct neck length, natural collarbone structure, relaxed shoulders, realistic skin with visible fine texture and soft sheen — no airbrushing, no plastic skin.
+SUBJECT: the ÉLAVÉRA brand model: an elegant woman about 30–35 years old with a refined, noble look, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), expressive almond-shaped hazel-brown eyes with natural catchlights and defined natural lashes, soft natural brows, dark chestnut hair, natural makeup (soft matte complexion, subtle warm taupe eye definition, soft rose-nude lips, no heavy contouring, no glitter), calm confident expression. Her face is fully visible, natural and beautiful, with real skin texture (visible fine pores, soft sheen, subtle tonal variation) — no airbrushing, no plastic or waxy skin, no uncanny symmetry. Her head is turned in a gentle three-quarter view toward the left of the frame (toward the empty space), eyes soft, expressive and luminous with natural catchlights, calm noble expression, chin slightly lifted. Hair gathered in a sleek low chignon with a few natural loose strands near the face; neck, ears and shoulders fully free. She wears an off-the-shoulder ivory-champagne silk top with soft natural folds. Natural anatomy: correct proportions of head, long elegant neck, natural collarbones and shoulders, natural ears.
+THE ONLY JEWELRY: a polished white-gold rivière necklace, 42 cm, made of exactly 52 round brilliant-cut diamonds (about 4.10 ct total) in ONE single continuous row, graduated gradually in size from the largest stones at the centre (about 5 mm) to the smallest near the clasp (about 2.5 mm); every diamond sits in its own individual four-claw basket (four tiny claws visible per stone), linked by a flexible hidden structure so the row looks like one unbroken line of light that follows the neck just above the collarbones, perfectly symmetrical. NO halos, NO clusters, NO pavé, NO pendant, NO extra stones or elements. No earrings (her ears are bare), no rings, no bracelets, no hair accessories, no other jewelry of any kind.
 
-COMPOSITION: the neck and necklace are placed in the right half of the frame (necklace centre at about 66% from the left, 55% from the top); the whole jewelry lies within x 42–88% and y 28–80% of the frame. The left 40% of the frame is calm, empty, softly out-of-focus warm ivory-beige backdrop with no objects, no hard shadows and no detail — reserved for website headline text. Camera: 85 mm portrait lens at f/4, eye-level, slightly turned three-quarter view of the model, sharp focus on the necklace diamonds, gentle falloff elsewhere.
+COMPOSITION: the model occupies the right half of the frame: the centre of her face at about 70% from the left and 26% from the top, the top of her hair at about 7% from the top, the centre of the necklace at about 70% from the left and 66% from the top; her head, neck and necklace lie within x 48–92% and y 6–82% of the frame, her shoulders fall away toward the right edge. The left 40% of the frame (x 0–40%) is calm, empty, softly out-of-focus warm ivory-beige backdrop with no objects, no hard shadows and no detail — reserved for the website headline and buttons. Camera: 85 mm portrait lens at f/4, eye-level, sharp focus on the eyes and the necklace diamonds, gentle natural falloff elsewhere.
 
-LIGHT AND COLOUR: soft diffused window light from the left, gentle gradient shadow on the neck and shoulders, bright clean specular highlights on the polished gold, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible reflections. Warm, quiet, restrained colour palette of ivory, champagne and soft beige; refined editorial mood; no heavy vignette.
+LIGHT AND COLOUR: soft diffused window light from the left, gentle shadow gradient on the face, neck and shoulders, bright clean specular highlights on the polished gold, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible reflections. Warm, quiet, restrained palette of ivory, champagne and soft beige with natural skin tones; refined editorial mood; no heavy vignette.
 
-REFERENCE: the attached photo shows the exact necklace (graduated round brilliant rivière, white gold, four-claw baskets); reproduce this piece faithfully on the model.
+REFERENCE: the attached photo shows the exact necklace (52 round brilliants in one row, graduated, white gold, individual four-claw baskets); reproduce this piece faithfully on the model, with no halos or clusters. If a preview sketch is attached, use it only for composition and the look of the model: remove its earring and correct the necklace.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -103,15 +104,16 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```
 
 **Чек-лист приёмки:**
-- [ ] Колье — ровная непрерывная линия камней, симметрично вокруг шеи, без обрыва
-- [ ] Камни уменьшаются к застёжке, видны корзины
-- [ ] Кожа с реальной фактурой, без пластика; ключицы анатомически верны
-- [ ] Левые 40% кадра пустые и спокойные
-- [ ] Нет текста, логотипов, лишних украшений
+- [ ] Модель около 30–35 лет, фотореалистичное лицо: поры, мягкий блеск, выразительные глаза, естественный макияж, без «пластика» и маски
+- [ ] Колье: ровно один непрерывный ряд круглых камней в отдельных 4-лапковых корзинах, плавное уменьшение от центра, без ореолов, кластеров и подвески
+- [ ] Нет серёг и любых других украшений
+- [ ] Модель справа, левые 40% кадра пустые и спокойные
+- [ ] Анатомия: шея, ключицы, плечи, уши, руки (если видны) естественны
+- [ ] Нет текста, логотипов, водяных знаков
 
 ---
 
-## № 02. Hero (мобильная версия): та же модель и колье
+## № 02. Hero (мобильная версия): та же модель и колье, лицо видно
 
 | Поле | Значение |
 |---|---|
@@ -124,13 +126,13 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 **Где используется:**
 - Главная (`/`): Hero — первый экран (<640 px)
 
-**Украшение:** То же колье Cascade Rivière (EV-N-001) и та же модель, что в десктопном Hero — не новое украшение: 52 круглых бриллианта, белое золото, градуировка от центра к замку, корзины из 4 лапок.
+**Украшение:** То же колье Cascade Rivière (EV-N-001) и та же модель, что в десктопном Hero — не новое украшение: ровно 52 круглых бриллианта в один ряд, градуировка от центра к застёжке, корзины из 4 лапок, без ореолов и кластеров. Других украшений нет, мочки без серёг.
 
-**Композиция, ракурс, свет, фон:** Вертикальная перекомпоновка десктопного кадра: шея и колье по центру, чуть крупнее; свет слева, тот же тёплый беж. Лицо обрезано по линии губ/подбородка.
+**Композиция, ракурс, свет, фон:** Вертикальная перекомпоновка десктопного кадра: модель по центру, лицо видно целиком, голова в три четверти, взгляд мягкий и выразительный, колье крупно и в центре нижней половины. Тот же свет слева, тот же тёплый беж и шёлковый топ.
 
-**Безопасная зона:** Колье и шея — в области x 20–80%, y 38–68% (центральный квадрат). Всё важное внутри y 20–80%.
+**Безопасная зона:** Голова и колье — внутри центрального квадрата: волосы не выше y 20%, колье не ниже y 78%. Лицо ≈ y 22–48%, колье ≈ y 58–76%, всё по центру по горизонтали (x 20–80%).
 
-**Свободное место под текст:** Текст на мобильном лежит под картинкой, но сверху и снизу оставьте по ~20% спокойного тёплого фона (без деталей), чтобы кадр не казался тесным.
+**Свободное место под текст:** Текст на мобильном лежит под картинкой, на фото его нет. Сверху оставьте ~15% спокойного тёплого фона, внизу — мягкую ткань топа.
 
 **Референсы:** ОБЯЗАТЕЛЬНО: в том же чате прикрепите готовое hero-desktop.png (модель, колье, свет) и принятое cascade-riviere-necklace-1.png
 
@@ -139,13 +141,14 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 **PROMPT (копировать целиком):**
 
 ```text
-Using the previously generated desktop hero image as the exact reference (same woman, same hairstyle, same ivory-champagne silk top, same rivière necklace, same lighting and colour grading), recompose it as a photorealistic luxury fashion campaign photograph in tall vertical 2:3 portrait format for the mobile hero of a premium European diamond jewelry house.
+Using the previously generated desktop hero image as the exact reference (same woman, same face, same hairstyle, same ivory-champagne silk top, same rivière necklace, same lighting and colour grading), recompose it as a photorealistic luxury jewelry advertising photograph in tall vertical 2:3 portrait format for the mobile hero of a premium European diamond jewelry house. It must look like a real, expensive high-end campaign photograph.
 
-SUBJECT: an elegant woman's neck, collarbones and bare shoulders, wearing a polished white-gold rivière necklace of 52 round brilliant-cut diamonds (about 4.10 ct total) in individual four-claw baskets, graduated from the largest central stones to smaller stones toward the clasp, forming one continuous line that rests at the base of the neck just above the collarbones, perfectly symmetrical. The woman is the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression; her face is cropped out at the lower lip/chin line. Hair in a sleek low chignon, neck fully free, off-the-shoulder ivory-champagne silk top. Natural anatomy, realistic skin texture with fine pores and soft sheen, no airbrushing.
+SUBJECT: the ÉLAVÉRA brand model: an elegant woman about 30–35 years old with a refined, noble look, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), expressive almond-shaped hazel-brown eyes with natural catchlights and defined natural lashes, soft natural brows, dark chestnut hair, natural makeup (soft matte complexion, subtle warm taupe eye definition, soft rose-nude lips, no heavy contouring, no glitter), calm confident expression. Her face is fully visible, natural and beautiful, with real skin texture (visible fine pores, soft sheen) — no airbrushing, no plastic skin. Head in a gentle three-quarter view, eyes soft, expressive and luminous with natural catchlights, calm noble expression. Hair in a sleek low chignon with a few natural loose strands, neck, ears and shoulders free, off-the-shoulder ivory-champagne silk top. Natural anatomy and proportions.
+THE ONLY JEWELRY: a polished white-gold rivière necklace, 42 cm, made of exactly 52 round brilliant-cut diamonds (about 4.10 ct total) in ONE single continuous row, graduated gradually in size from the largest stones at the centre (about 5 mm) to the smallest near the clasp (about 2.5 mm); every diamond sits in its own individual four-claw basket (four tiny claws visible per stone), linked by a flexible hidden structure so the row looks like one unbroken line of light that follows the neck just above the collarbones, perfectly symmetrical. NO halos, NO clusters, NO pavé, NO pendant, NO extra stones or elements. No earrings (her ears are bare), no rings, no bracelets, no hair accessories, no other jewelry of any kind.
 
-COMPOSITION: the necklace and neck are centered horizontally and placed in the vertical middle of the frame (necklace centre at about 50% from the left and 52% from the top). Keep all important elements within x 20–80% and y 30–72% of the frame, because the website crops this image to a centered square. Roughly the top 20% and bottom 20% of the frame are calm, softly out-of-focus warm ivory-beige backdrop (top) and silk fabric falling softly out of focus (bottom). Camera: 85 mm portrait lens at f/4, eye-level, very slight three-quarter turn, sharp focus on the diamonds.
+COMPOSITION: the model is centered horizontally; the centre of her face at about 50% from the left and 35% from the top; the necklace centre at about 50% from the left and 67% from the top. Keep the whole head (top of hair no higher than 20% from the top) and the entire necklace (no lower than 78% from the top) within the central square band of the frame, within x 20–80%, because the website crops this image to a centered square. About 15% at the top is calm, softly out-of-focus warm ivory-beige backdrop; below the necklace the silk top falls softly out of focus. Camera: 85 mm portrait lens at f/4, eye-level, sharp focus on the eyes and the necklace diamonds.
 
-LIGHT AND COLOUR: soft diffused window light from the left, gentle shadow gradient on the neck, bright clean highlights on polished gold, crisp tiny white sparkles with a few subtle prismatic flashes, physically plausible reflections; warm restrained palette of ivory, champagne and soft beige; no vignette.
+LIGHT AND COLOUR: soft diffused window light from the left, gentle shadow gradient on the face and neck, bright clean highlights on polished gold, crisp tiny white sparkles with a few subtle prismatic flashes, physically plausible reflections; warm restrained palette of ivory, champagne and soft beige with natural skin tones; no vignette.
 
 REFERENCE: the attached desktop hero image and the attached necklace photo define the exact necklace and model; keep them identical.
 
@@ -155,9 +158,11 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```
 
 **Чек-лист приёмки:**
-- [ ] Та же модель, прическа, топ и колье, что в desktop-версии
-- [ ] Колье строго по центру, в пределах центрального квадрата
-- [ ] Анатомия и кожа реалистичны
+- [ ] Та же женщина, причёска, топ, свет и колье, что в desktop-версии
+- [ ] Лицо фотореалистично, глаза выразительны, макияж естественный, кожа с фактурой
+- [ ] Колье — один непрерывный ряд круглых камней в 4-лапковых корзинах, без ореолов и кластеров
+- [ ] Нет серёг и других украшений
+- [ ] Голова и колье внутри центрального квадрата (волосы не выше y 20%, колье не ниже y 78%)
 - [ ] Нет текста и посторонних деталей
 
 ---
@@ -192,7 +197,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic fashion-editorial portrait in square 1:1 format for a premium European diamond jewelry house.
 
-SUBJECT: the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression, photographed from the chest up in a gentle three-quarter view, face turned slightly toward the right, gaze directed softly out of frame to the right, chin slightly lifted, bare shoulders, hair in a smooth low chignon. She wears a single delicate solitaire pendant necklace: a very fine polished white-gold anchor-link chain (42 cm) with one round brilliant-cut diamond of about 0.45 ct (about 4.9 mm) in a four-claw setting that rests at the centre of the collarbones. No other jewelry. Natural anatomy: correct proportions of face, ear, neck and collarbones; skin with real fine pores, subtle freckles, soft natural sheen, no airbrushing or plastic smoothing; natural eyelashes, natural lips.
+SUBJECT: the ÉLAVÉRA brand model: an elegant woman about 30–35 years old with a refined, noble look, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), expressive almond-shaped hazel-brown eyes with natural catchlights and defined natural lashes, soft natural brows, dark chestnut hair, natural makeup (soft matte complexion, subtle warm taupe eye definition, soft rose-nude lips, no heavy contouring, no glitter), calm confident expression, photographed from the chest up in a gentle three-quarter view, face turned slightly toward the right, gaze directed softly out of frame to the right, chin slightly lifted, bare shoulders, hair in a smooth low chignon. She wears a single delicate solitaire pendant necklace: a very fine polished white-gold anchor-link chain (42 cm) with one round brilliant-cut diamond of about 0.45 ct (about 4.9 mm) in a four-claw setting that rests at the centre of the collarbones. No other jewelry. Natural anatomy: correct proportions of face, ear, neck and collarbones; skin with real fine pores, subtle freckles, soft natural sheen, no airbrushing or plastic smoothing; natural eyelashes, natural lips.
 
 COMPOSITION: the face and pendant stay within x 22–78% and y 18–82% of the frame; the pendant sits at about 50% from the left and 68% from the top and is in crisp focus; background is deep wine-coloured (#482E35) silk drapery in soft out-of-focus folds with a subtle warm gradient. Camera: 85 mm lens at f/2.8, eye-level, focus on the pendant diamond and the eyes' plane, gentle falloff.
 
@@ -243,7 +248,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury fashion-editorial close-up in wide 3:2 landscape format for the hero of a premium European diamond jewelry house.
 
-SUBJECT: two elegant female hands of the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished soft champagne-yellow gold band (1.8 mm, plain, no side stones), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
+SUBJECT: two elegant female hands of the ÉLAVÉRA brand model: an elegant woman about 30–35 years old with a refined, noble look, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), expressive almond-shaped hazel-brown eyes with natural catchlights and defined natural lashes, soft natural brows, dark chestnut hair, natural makeup (soft matte complexion, subtle warm taupe eye definition, soft rose-nude lips, no heavy contouring, no glitter), calm confident expression, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished soft champagne-yellow gold band (1.8 mm, plain, no side stones), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
 
 COMPOSITION: the cluster of hands is compact and centered horizontally (not wider than 45% of the frame), with the ring at about 50% from the left and 34% from the top; all fingers and the ring lie within x 36–64% and y 14–58%. The bottom 38% of the frame is calm, dark, softly out-of-focus wine-coloured fabric with no detail, reserved for website headline text. Camera: 100 mm macro-portrait lens at f/4, slightly above the hands, sharp focus on the diamond and ring finger, gentle falloff.
 
@@ -294,7 +299,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic fashion-editorial close portrait in tall 2:3 portrait format for a premium European diamond jewelry house.
 
-SUBJECT: the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression, shown from the shoulders up in a three-quarter view, face turned toward the left, ear on the right side of the frame fully visible, hair pulled back neatly behind the ear so the ear, jawline and neck are exposed, calm gaze toward the left out of frame. She wears one drop earring (the visible ear): polished white gold, about 28 mm long — a small round brilliant diamond on top, a fine polished link with one tiny round diamond, and a pear-shaped diamond (about 0.5 ct) hanging below in a six-claw basket with a pointed tip claw; the pear drop hangs straight down by gravity. No other jewelry. Natural anatomy: correct ear shape and earlobe with the earring passing realistically through the lobe, natural neck and shoulder lines, skin with fine pores, subtle tonal variation and soft sheen, no airbrushing or plastic skin.
+SUBJECT: the ÉLAVÉRA brand model: an elegant woman about 30–35 years old with a refined, noble look, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), expressive almond-shaped hazel-brown eyes with natural catchlights and defined natural lashes, soft natural brows, dark chestnut hair, natural makeup (soft matte complexion, subtle warm taupe eye definition, soft rose-nude lips, no heavy contouring, no glitter), calm confident expression, shown from the shoulders up in a three-quarter view, face turned toward the left, ear on the right side of the frame fully visible, hair pulled back neatly behind the ear so the ear, jawline and neck are exposed, calm gaze toward the left out of frame. She wears one drop earring (the visible ear): polished white gold, about 28 mm long — a small round brilliant diamond on top, a fine polished link with one tiny round diamond, and a pear-shaped diamond (about 0.5 ct) hanging below in a six-claw basket with a pointed tip claw; the pear drop hangs straight down by gravity. No other jewelry. Natural anatomy: correct ear shape and earlobe with the earring passing realistically through the lobe, natural neck and shoulder lines, skin with fine pores, subtle tonal variation and soft sheen, no airbrushing or plastic skin.
 
 COMPOSITION: the earring is placed at about 62% from the left and 52% from the top and is in crisp focus; the face, ear and earring stay within x 25–78% and y 16–78%. Background: seamless soft warm beige (#E9E0D5) with a gentle gradient, no objects. Camera: 100 mm portrait lens at f/3.2, eye-level, focus on the earring diamonds with soft falloff on the face edge.
 
