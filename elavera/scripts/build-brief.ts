@@ -131,6 +131,11 @@ const specs: Record<string, Spec> = {
   },
 };
 
+// Английские названия для промптов (промпты — только на английском)
+const CAT_EN = { rings: "ring", earrings: "earrings", necklaces: "necklace / pendant", bracelets: "bracelet", engagement: "engagement ring" } as const;
+const CUT_EN = { round: "round brilliant", oval: "oval", pear: "pear", emerald: "emerald", marquise: "marquise", cushion: "cushion", princess: "princess" } as const;
+const METAL_EN = { white: "white gold", yellow: "yellow gold", rose: "rose gold" } as const;
+
 // ───────────────────────── Данные ─────────────────────────
 const tileSlugs = ["aube-pave-ring", "eclat-solitaire-studs", "cascade-riviere-necklace", "lumiere-riviere-bracelet", "promesse-round-solitaire"];
 const featured = new Set(getFeatured().map((p) => p.slug));
@@ -324,10 +329,10 @@ products.forEach((p, i) => {
   const n = 7 + i;
   const prompt = `Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: ${s.subject}. This is catalog item ${p.id} "${p.name}" (${CATEGORY_LABEL[p.category]}, ${CUT_LABEL[p.stone.cut].toLowerCase()} cut) — render exactly this design and do not invent additional elements.
+SUBJECT: ${s.subject}. This is catalog item ${p.id} "${p.slug.replace(/-/g, " ")}" (${CAT_EN[p.category]}, ${CUT_EN[p.stone.cut]} cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: ${s.stones}.
 SETTING AND CONSTRUCTION: ${s.setting}.
-METAL: ${metalLabel.toLowerCase()} 750, high polish.
+METAL: 18k (750) ${METAL_EN[metal]}, high polish.
 POSE AND ANGLE: ${s.pose}.
 
 ${PRODUCT_FRAMING}

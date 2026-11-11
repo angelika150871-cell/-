@@ -386,10 +386,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a slender women's band ring, 2.2 mm wide, polished white gold. This is catalog item EV-R-001 "Кольцо Aube Pavé" (Кольца, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a slender women's band ring, 2.2 mm wide, polished white gold. This is catalog item EV-R-001 "aube pave ring" (ring, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: a continuous single row of 38 tiny round brilliant-cut diamonds (about 0.42 ct total) running around the entire outer circumference of the band.
 SETTING AND CONSTRUCTION: classic pavé: each diamond sits in a small bead-set shaton flush with the band, with tiny gold beads between neighbouring stones; smooth polished comfort-fit inner surface.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, seen from a front three-quarter angle slightly above, so the full diamond row and the inside curve are visible.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -444,10 +444,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a women's ring with a central oval diamond and a delicate halo, thin plain polished white gold band. This is catalog item EV-R-002 "Кольцо Lumière Oval" (Кольца, овальная cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a women's ring with a central oval diamond and a delicate halo, thin plain polished white gold band. This is catalog item EV-R-002 "lumiere oval halo ring" (ring, oval cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one central oval-cut diamond (about 7.6 × 5.4 mm) surrounded by a thin halo of tiny round brilliant diamonds (21 stones in total including the centre stone, about 1.05 ct total).
 SETTING AND CONSTRUCTION: four-claw open (ajouré) basket under the centre stone so light passes through it; halo stones in beaded settings; the long axis of the oval is perpendicular to the band.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above, the oval clearly visible with its facets and the halo.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -501,10 +501,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a toi-et-moi ring with two diamonds on a thin plain polished yellow gold band, 1.8 mm wide. This is catalog item EV-R-003 "Кольцо Orbite Duo" (Кольца, груша cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a toi-et-moi ring with two diamonds on a thin plain polished yellow gold band, 1.8 mm wide. This is catalog item EV-R-003 "orbite toi et moi ring" (ring, pear cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: two diamonds: one pear-shaped and one round brilliant, about 0.78 ct total, set side by side on top of the band so that they face each other, the pear's pointed tip angled toward the round stone.
 SETTING AND CONSTRUCTION: open claws (three small claws per stone), low and light, no halo, no side stones.
-METAL: жёлтое золото 750, high polish.
+METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so both stones and their arrangement are clearly readable.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -560,10 +560,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a pair of classic stud earrings, polished white gold. This is catalog item EV-E-001 "Серьги-пусеты Éclat" (Серьги, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a pair of classic stud earrings, polished white gold. This is catalog item EV-E-001 "eclat solitaire studs" (earrings, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: two round brilliant-cut diamonds, about 0.30 ct each (0.60 ct total), identical in size and cut.
 SETTING AND CONSTRUCTION: low four-claw settings; the posts and butterfly backs are not visible; the two earrings are exact mirror-image twins.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair placed side by side on the surface, about one earring-width apart, both facing the camera straight on, very slightly tilted back so the diamond tables catch the light.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -618,10 +618,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a pair of elegant drop earrings, polished white gold, about 28 mm long. This is catalog item EV-E-002 "Серьги-капли Lumière" (Серьги, груша cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a pair of elegant drop earrings, polished white gold, about 28 mm long. This is catalog item EV-E-002 "lumiere pear drop earrings" (earrings, pear cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: per earring: one small round brilliant on top, one tiny round brilliant on the link, and one pear-shaped diamond hanging below (6 stones per pair, about 1.20 ct total).
 SETTING AND CONSTRUCTION: the pear diamond sits in a six-claw basket with a refined pointed tip claw; a fine polished link connects the pieces; the earrings are exact mirror-image twins.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair suspended as if hanging, vertical, side by side, one hanging very slightly higher than the other for a natural look; seamless warm backdrop behind (no hooks, wires or hands visible).
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -675,10 +675,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a pair of small huggie hoop earrings, 14 mm diameter, polished white gold. This is catalog item EV-E-003 "Серьги-кольца Aube Hoop" (Серьги, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a pair of small huggie hoop earrings, 14 mm diameter, polished white gold. This is catalog item EV-E-003 "aube huggie hoops" (earrings, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: a row of tiny round brilliant diamonds (32 in total, 16 per earring, about 0.50 ct total) set along the outer edge of each hoop.
 SETTING AND CONSTRUCTION: pavé beads along the outer edge, hidden click closure; slim, rounded gold profile.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pair standing upright side by side, one seen from the front, the other turned about 45 degrees so the stone row and the thickness of the hoop are both visible.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -734,10 +734,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a rivière necklace, 42 cm, polished white gold. This is catalog item EV-N-001 "Колье Cascade Rivière" (Колье и подвески, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a rivière necklace, 42 cm, polished white gold. This is catalog item EV-N-001 "cascade riviere necklace" (necklace / pendant, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: 52 round brilliant-cut diamonds (about 4.10 ct total), graduated: largest in the centre, gradually smaller toward the clasp.
 SETTING AND CONSTRUCTION: each diamond in its own individual four-claw basket, linked by a hidden flexible gold structure so the line of stones looks continuous; fine clasp at the back.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the necklace laid flat on the surface as a soft, natural horseshoe / U-shaped arc, the centre largest stones at the lowest point of the curve, viewed from directly above and slightly in front.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -792,10 +792,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a delicate solitaire pendant necklace, polished white gold, very fine chain 42 cm. This is catalog item EV-N-002 "Подвеска Éclat Solitaire" (Колье и подвески, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a delicate solitaire pendant necklace, polished white gold, very fine chain 42 cm. This is catalog item EV-N-002 "eclat solitaire pendant" (necklace / pendant, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one round brilliant-cut diamond, about 0.45 ct (about 4.9 mm).
 SETTING AND CONSTRUCTION: four-claw setting with a tiny bail; very thin anchor-link chain.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the pendant lies on the surface with the chain forming a gentle V-shaped curve upward and out of the top of the frame edges evenly; the diamond is the focal point, seen from above and slightly in front.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -849,10 +849,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a pendant necklace with an oval diamond, polished yellow gold, fine chain 45 cm. This is catalog item EV-N-003 "Подвеска Aube Oval" (Колье и подвески, овальная cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a pendant necklace with an oval diamond, polished yellow gold, fine chain 45 cm. This is catalog item EV-N-003 "aube oval pendant" (necklace / pendant, oval cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one oval-cut diamond, about 0.70 ct (about 7 × 5 mm).
 SETTING AND CONSTRUCTION: thin bezel (rim) setting around the stone, polished gold collar, small bail, fine chain.
-METAL: жёлтое золото 750, high polish.
+METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the pendant lies on the surface with the chain in a gentle V-shaped curve, oval oriented with its long axis vertical, seen from above and slightly in front.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -907,10 +907,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a flexible rivière tennis bracelet, 17.5 cm, polished white gold. This is catalog item EV-B-001 "Браслет Lumière Rivière" (Браслеты, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a flexible rivière tennis bracelet, 17.5 cm, polished white gold. This is catalog item EV-B-001 "lumiere riviere bracelet" (bracelet, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: 44 identical round brilliant-cut diamonds (about 3.20 ct total) in one continuous line.
 SETTING AND CONSTRUCTION: each stone in an individual four-claw basket, flexible links, box clasp with a safety catch visible as a slim rectangular closure.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the bracelet laid on the surface in a soft open C-shaped / oval curve, as if just removed from the wrist, the clasp placed naturally at the back right; viewed from above and slightly in front.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -964,10 +964,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a slim rigid oval bangle bracelet, polished yellow gold, about 4 mm wide, inner diameter 58 mm. This is catalog item EV-B-002 "Браслет-жёсткий Orbite" (Браслеты, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a slim rigid oval bangle bracelet, polished yellow gold, about 4 mm wide, inner diameter 58 mm. This is catalog item EV-B-002 "orbite bangle" (bracelet, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: seven round diamonds (about 0.08 ct each, 0.56 ct total) evenly spaced around the bangle, set flush into the band.
 SETTING AND CONSTRUCTION: flush bezel-style settings so the diamonds are level with the gold surface; hidden hinge and concealed clasp; smooth polished profile.
-METAL: жёлтое золото 750, high polish.
+METAL: 18k (750) yellow gold, high polish.
 POSE AND ANGLE: the bangle stands on its edge, tilted slightly toward the camera, so the oval opening and the evenly spaced stones are visible.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -1021,10 +1021,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a light chain bracelet, polished white gold, 17–19 cm with a lobster clasp. This is catalog item EV-B-003 "Браслет-цепь Aube" (Браслеты, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a light chain bracelet, polished white gold, 17–19 cm with a lobster clasp. This is catalog item EV-B-003 "aube chain bracelet" (bracelet, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: three small round brilliant diamonds (about 0.06 ct each, 0.18 ct total) in tiny bezels that slide freely along the chain, evenly spaced.
 SETTING AND CONSTRUCTION: tiny bezel stations on a very fine polished chain; small lobster clasp and extension ring.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the bracelet laid on the surface in a loose, natural S-curve with the three stones clearly visible and the clasp resting near one end of the frame.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -1079,10 +1079,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top. This is catalog item EV-P-001 "Помолвочное кольцо Promesse Round" (Помолвочные кольца, круглая cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a classic solitaire engagement ring, thin polished white gold (platinum-look) band 1.8 mm wide, flat on top. This is catalog item EV-P-001 "promesse round solitaire" (engagement ring, round brilliant cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm), exceptional cut with crisp facet symmetry.
 SETTING AND CONSTRUCTION: six-claw high setting with slim claws and an open gallery; refined and light; plain band without side stones.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so the table facets, six claws and the thin band are clearly visible.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -1136,10 +1136,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: an engagement ring with an oval diamond and a hidden halo, thin polished white gold band. This is catalog item EV-P-002 "Помолвочное кольцо Promesse Oval" (Помолвочные кольца, овальная cut) — render exactly this design and do not invent additional elements.
+SUBJECT: an engagement ring with an oval diamond and a hidden halo, thin polished white gold band. This is catalog item EV-P-002 "promesse oval hidden halo" (engagement ring, oval cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one oval-cut centre diamond (about 1.0 ct) with a hidden halo: a thin ring of tiny round diamonds under the centre stone, visible mainly from the side (25 stones in total, about 1.30 ct total).
 SETTING AND CONSTRUCTION: four double claws (eight claw tips) holding the oval; the hidden halo sits below the girdle inside the basket; thin plain band.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, a three-quarter side view so both the oval table and the hidden halo under the stone can be seen.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -1193,10 +1193,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: a three-stone engagement ring, polished white gold (platinum-look) band. This is catalog item EV-P-003 "Помолвочное кольцо Promesse Trilogy" (Помолвочные кольца, изумрудная cut) — render exactly this design and do not invent additional elements.
+SUBJECT: a three-stone engagement ring, polished white gold (platinum-look) band. This is catalog item EV-P-003 "promesse emerald trilogy" (engagement ring, emerald cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one emerald-cut centre diamond (about 0.8 ct, long step-cut facets) flanked by two tapered baguette diamonds (about 0.4 ct each); about 1.60 ct total.
 SETTING AND CONSTRUCTION: corner claws on the emerald-cut stone, channel or claw settings on the baguettes; clean architectural lines; band thin and plain.
-METAL: белое золото 750, high polish.
+METAL: 18k (750) white gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above so the step facets of the emerald cut and both side baguettes are clearly visible.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
@@ -1250,10 +1250,10 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury jewelry product photograph in square 1:1 format for the catalog of a premium European fine-jewelry house.
 
-SUBJECT: an engagement ring, thin polished rose gold band 1.7 mm wide. This is catalog item EV-P-004 "Помолвочное кольцо Promesse Pear" (Помолвочные кольца, груша cut) — render exactly this design and do not invent additional elements.
+SUBJECT: an engagement ring, thin polished rose gold band 1.7 mm wide. This is catalog item EV-P-004 "promesse pear solitaire" (engagement ring, pear cut diamonds) — render exactly this design and do not invent additional elements.
 STONES: one pear-shaped diamond of about 1.10 ct with a clean pointed tip and rounded end.
 SETTING AND CONSTRUCTION: a V-shaped claw protecting the pointed tip plus three more slim claws; open gallery; plain band without side stones.
-METAL: розовое золото 750, high polish.
+METAL: 18k (750) rose gold, high polish.
 POSE AND ANGLE: the ring stands upright on its band, front three-quarter view slightly from above, the pear oriented with its tip pointing away from the finger.
 
 FRAMING (important): perfectly centered composition; the jewelry occupies about 50–55% of the frame height and no more than about 60% of the frame width, leaving generous, even margins on all sides, because the website crops this square image to 4:5 and 16:9 and the piece must never be cut off. Seamless warm ivory (#F5F1EA) surface and backdrop with a barely perceptible soft gradient to #E9E0D5 toward the edges, no horizon line, no props, no reflections of other objects. Very soft, subtle contact shadow under the piece.
