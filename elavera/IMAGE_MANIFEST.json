@@ -1,0 +1,902 @@
+{
+  "project": "ÉLAVÉRA",
+  "note": "Все изображения создаются вручную в ChatGPT. Статус pending до импорта файлов; после импорта ключ добавляется в public/images/manifest.json.",
+  "incomingDir": "elavera/incoming-images",
+  "outputFormat": "webp",
+  "count": 22,
+  "images": [
+    {
+      "order": 1,
+      "id": "hero-desktop",
+      "type": "hero",
+      "upload_filename": "hero-desktop.png",
+      "target_path": "public/images/hero/hero-desktop.webp",
+      "manifest_key": "hero/hero-desktop",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "3:2 (горизонтальный)",
+      "generate_size": "1536×1024 или выше",
+      "safe_zone": "Всё украшение и подбородок — в области x 42–88%, y 28–80% кадра. Левые ~15% кадра плавно растворяются в слоновую кость градиентом сайта.",
+      "text_space": "Левые ~40% кадра: пустой, мягко размытый тёплый фон слоновой кости/беж без деталей и без теней — туда на сайте накладывается заголовок «Свет, который остаётся с вами».",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Hero — первый экран (≥640 px)"
+        }
+      ],
+      "reference_images": [
+        "Если уже сгенерирован «Колье Cascade Rivière» (№ 13) — загрузите его в чат как референс украшения"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 2,
+      "id": "hero-mobile",
+      "type": "hero",
+      "upload_filename": "hero-mobile.png",
+      "target_path": "public/images/hero/hero-mobile.webp",
+      "manifest_key": "hero/hero-mobile",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "2:3 (вертикальный; на сайт кадрируется до 1:1 по центру)",
+      "generate_size": "1024×1536 или выше",
+      "safe_zone": "Колье и шея — в области x 20–80%, y 38–68% (центральный квадрат). Всё важное внутри y 20–80%.",
+      "text_space": "Текст на мобильном лежит под картинкой, но сверху и снизу оставьте по ~20% спокойного тёплого фона (без деталей), чтобы кадр не казался тесным.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Hero — первый экран (<640 px)"
+        }
+      ],
+      "reference_images": [
+        "ОБЯЗАТЕЛЬНО: в том же чате загрузите готовое hero-desktop как референс модели, колье, света и стиля"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 3,
+      "id": "editorial-1",
+      "type": "editorial",
+      "upload_filename": "editorial-1.png",
+      "target_path": "public/images/editorial/editorial-1.webp",
+      "manifest_key": "editorial/editorial-1",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Лицо и подвеска — в области x 22–78%, y 18–82%. Подвеска на ключицах: x 42–58%, y 62–74%.",
+      "text_space": "Текст лежит в отдельной колонке справа, поверх изображения его нет. Лицо модели обращено вправо — к тексту.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Editorial Story — «Совершенство в каждой грани» (левая фотография)"
+        }
+      ],
+      "reference_images": [
+        "Загрузите готовую «Подвеску Éclat Solitaire» (№ 14) как референс украшения"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 4,
+      "id": "editorial-2",
+      "type": "editorial",
+      "upload_filename": "editorial-2.png",
+      "target_path": "public/images/editorial/editorial-2.webp",
+      "manifest_key": "editorial/editorial-2",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "3:2 (горизонтальный)",
+      "generate_size": "1536×1024 или выше",
+      "safe_zone": "Кольцо и пальцы — в центральной трети: x 36–64%, y 14–58%. Вся композиция рук — не шире ~45% кадра.",
+      "text_space": "Нижние ~38% кадра (y 62–100%) — тёмный спокойный винный фон без деталей: туда накладывается заголовок «Искусство оставаться незабываемой» (слева снизу) под градиентом.",
+      "used_on": [
+        {
+          "page": "Дом ÉLAVÉRA",
+          "route": "/maison",
+          "block": "Первый экран — полноэкранный фон"
+        }
+      ],
+      "reference_images": [
+        "Загрузите готовое «Помолвочное кольцо Promesse Round» (№ 19) как референс украшения"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 5,
+      "id": "editorial-3",
+      "type": "editorial",
+      "upload_filename": "editorial-3.png",
+      "target_path": "public/images/editorial/editorial-3.webp",
+      "manifest_key": "editorial/editorial-3",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "2:3 (вертикальный; на сайте кадрируется до 4:5)",
+      "generate_size": "1024×1536 или выше",
+      "safe_zone": "Лицо, ухо и серьга — в области x 25–78%, y 16–78%. Серьга: x 55–70%, y 42–62%.",
+      "text_space": "Текст в левой колонке рядом, на фото его нет. Свободное пространство не требуется, но фон должен быть спокойным.",
+      "used_on": [
+        {
+          "page": "Дом ÉLAVÉRA",
+          "route": "/maison",
+          "block": "История и философия — вертикальный портрет справа"
+        }
+      ],
+      "reference_images": [
+        "Загрузите готовые «Серьги-капли Lumière» (№ 11) как референс украшения"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 6,
+      "id": "editorial-4",
+      "type": "editorial",
+      "upload_filename": "editorial-4.png",
+      "target_path": "public/images/editorial/editorial-4.webp",
+      "manifest_key": "editorial/editorial-4",
+      "product_id": null,
+      "product_slug": null,
+      "generate_ratio": "3:2 (горизонтальный)",
+      "generate_size": "1536×1024 или выше",
+      "safe_zone": "Все три украшения — в области x 48–82%, y 26–76%. Центр композиции ≈ x 62%, y 50%.",
+      "text_space": "Левые ~42% кадра (x 0–42%) — глубокая мягкая тень винного бархата без предметов: там заголовок «Ваш свет уже ждёт» и кнопка.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Заключительная секция — полноэкранный фон перед переходом в каталог"
+        }
+      ],
+      "reference_images": [
+        "Загрузите готовые № 8 (кольцо Lumière Oval), № 11 (серьги-капли Lumière) и № 16 (браслет Lumière Rivière) как референсы"
+      ],
+      "status": "pending"
+    },
+    {
+      "order": 7,
+      "id": "product-aube-pave-ring",
+      "type": "product",
+      "upload_filename": "aube-pave-ring-1.png",
+      "target_path": "public/images/products/aube-pave-ring-1.webp",
+      "manifest_key": "products/aube-pave-ring-1",
+      "product_id": "EV-R-001",
+      "product_slug": "aube-pave-ring",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Плитка категории «Кольца» (разные кадрирования: 4:3, 4:5, 1:1, 16:9)"
+        },
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/aube-pave-ring",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 8,
+      "id": "product-lumiere-oval-halo-ring",
+      "type": "product",
+      "upload_filename": "lumiere-oval-halo-ring-1.png",
+      "target_path": "public/images/products/lumiere-oval-halo-ring-1.webp",
+      "manifest_key": "products/lumiere-oval-halo-ring-1",
+      "product_id": "EV-R-002",
+      "product_slug": "lumiere-oval-halo-ring",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/lumiere-oval-halo-ring",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 9,
+      "id": "product-orbite-toi-et-moi-ring",
+      "type": "product",
+      "upload_filename": "orbite-toi-et-moi-ring-1.png",
+      "target_path": "public/images/products/orbite-toi-et-moi-ring-1.webp",
+      "manifest_key": "products/orbite-toi-et-moi-ring-1",
+      "product_id": "EV-R-003",
+      "product_slug": "orbite-toi-et-moi-ring",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/orbite-toi-et-moi-ring",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 10,
+      "id": "product-eclat-solitaire-studs",
+      "type": "product",
+      "upload_filename": "eclat-solitaire-studs-1.png",
+      "target_path": "public/images/products/eclat-solitaire-studs-1.webp",
+      "manifest_key": "products/eclat-solitaire-studs-1",
+      "product_id": "EV-E-001",
+      "product_slug": "eclat-solitaire-studs",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Плитка категории «Серьги» (разные кадрирования: 4:3, 4:5, 1:1, 16:9)"
+        },
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/eclat-solitaire-studs",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 11,
+      "id": "product-lumiere-pear-drop-earrings",
+      "type": "product",
+      "upload_filename": "lumiere-pear-drop-earrings-1.png",
+      "target_path": "public/images/products/lumiere-pear-drop-earrings-1.webp",
+      "manifest_key": "products/lumiere-pear-drop-earrings-1",
+      "product_id": "EV-E-002",
+      "product_slug": "lumiere-pear-drop-earrings",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/lumiere-pear-drop-earrings",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 12,
+      "id": "product-aube-huggie-hoops",
+      "type": "product",
+      "upload_filename": "aube-huggie-hoops-1.png",
+      "target_path": "public/images/products/aube-huggie-hoops-1.webp",
+      "manifest_key": "products/aube-huggie-hoops-1",
+      "product_id": "EV-E-003",
+      "product_slug": "aube-huggie-hoops",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/aube-huggie-hoops",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 13,
+      "id": "product-cascade-riviere-necklace",
+      "type": "product",
+      "upload_filename": "cascade-riviere-necklace-1.png",
+      "target_path": "public/images/products/cascade-riviere-necklace-1.webp",
+      "manifest_key": "products/cascade-riviere-necklace-1",
+      "product_id": "EV-N-001",
+      "product_slug": "cascade-riviere-necklace",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Плитка категории «Колье и подвески» (разные кадрирования: 4:3, 4:5, 1:1, 16:9)"
+        },
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/cascade-riviere-necklace",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 14,
+      "id": "product-eclat-solitaire-pendant",
+      "type": "product",
+      "upload_filename": "eclat-solitaire-pendant-1.png",
+      "target_path": "public/images/products/eclat-solitaire-pendant-1.webp",
+      "manifest_key": "products/eclat-solitaire-pendant-1",
+      "product_id": "EV-N-002",
+      "product_slug": "eclat-solitaire-pendant",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Избранные украшения — карточка"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/eclat-solitaire-pendant",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 15,
+      "id": "product-aube-oval-pendant",
+      "type": "product",
+      "upload_filename": "aube-oval-pendant-1.png",
+      "target_path": "public/images/products/aube-oval-pendant-1.webp",
+      "manifest_key": "products/aube-oval-pendant-1",
+      "product_id": "EV-N-003",
+      "product_slug": "aube-oval-pendant",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/aube-oval-pendant",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 16,
+      "id": "product-lumiere-riviere-bracelet",
+      "type": "product",
+      "upload_filename": "lumiere-riviere-bracelet-1.png",
+      "target_path": "public/images/products/lumiere-riviere-bracelet-1.webp",
+      "manifest_key": "products/lumiere-riviere-bracelet-1",
+      "product_id": "EV-B-001",
+      "product_slug": "lumiere-riviere-bracelet",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Плитка категории «Браслеты» (разные кадрирования: 4:3, 4:5, 1:1, 16:9)"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/lumiere-riviere-bracelet",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 17,
+      "id": "product-orbite-bangle",
+      "type": "product",
+      "upload_filename": "orbite-bangle-1.png",
+      "target_path": "public/images/products/orbite-bangle-1.webp",
+      "manifest_key": "products/orbite-bangle-1",
+      "product_id": "EV-B-002",
+      "product_slug": "orbite-bangle",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/orbite-bangle",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 18,
+      "id": "product-aube-chain-bracelet",
+      "type": "product",
+      "upload_filename": "aube-chain-bracelet-1.png",
+      "target_path": "public/images/products/aube-chain-bracelet-1.webp",
+      "manifest_key": "products/aube-chain-bracelet-1",
+      "product_id": "EV-B-003",
+      "product_slug": "aube-chain-bracelet",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/aube-chain-bracelet",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 19,
+      "id": "product-promesse-round-solitaire",
+      "type": "product",
+      "upload_filename": "promesse-round-solitaire-1.png",
+      "target_path": "public/images/products/promesse-round-solitaire-1.webp",
+      "manifest_key": "products/promesse-round-solitaire-1",
+      "product_id": "EV-P-001",
+      "product_slug": "promesse-round-solitaire",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Главная",
+          "route": "/",
+          "block": "Плитка категории «Помолвочные кольца» (разные кадрирования: 4:3, 4:5, 1:1, 16:9)"
+        },
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/promesse-round-solitaire",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 20,
+      "id": "product-promesse-oval-hidden-halo",
+      "type": "product",
+      "upload_filename": "promesse-oval-hidden-halo-1.png",
+      "target_path": "public/images/products/promesse-oval-hidden-halo-1.webp",
+      "manifest_key": "products/promesse-oval-hidden-halo-1",
+      "product_id": "EV-P-002",
+      "product_slug": "promesse-oval-hidden-halo",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/promesse-oval-hidden-halo",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 21,
+      "id": "product-promesse-emerald-trilogy",
+      "type": "product",
+      "upload_filename": "promesse-emerald-trilogy-1.png",
+      "target_path": "public/images/products/promesse-emerald-trilogy-1.webp",
+      "manifest_key": "products/promesse-emerald-trilogy-1",
+      "product_id": "EV-P-003",
+      "product_slug": "promesse-emerald-trilogy",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/promesse-emerald-trilogy",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    },
+    {
+      "order": 22,
+      "id": "product-promesse-pear-solitaire",
+      "type": "product",
+      "upload_filename": "promesse-pear-solitaire-1.png",
+      "target_path": "public/images/products/promesse-pear-solitaire-1.webp",
+      "manifest_key": "products/promesse-pear-solitaire-1",
+      "product_id": "EV-P-004",
+      "product_slug": "promesse-pear-solitaire",
+      "generate_ratio": "1:1 (квадрат)",
+      "generate_size": "1536×1536 или 1024×1024",
+      "safe_zone": "Украшение по центру: ≈50–55% высоты и ≤60% ширины кадра, ровные поля со всех сторон.",
+      "text_space": "Не требуется: на изображении нет текста, поверх него на сайте лежат только бейджи в углах и кнопка внизу карточки при наведении.",
+      "used_on": [
+        {
+          "page": "Каталог",
+          "route": "/collections",
+          "block": "Карточка изделия в сетке (основное фото)"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/promesse-pear-solitaire",
+          "block": "Основное изображение галереи (ракурс 1) и миниатюра"
+        },
+        {
+          "page": "Корзина и оформление",
+          "route": "/checkout",
+          "block": "Миниатюра позиции в боковой корзине и в сводке заказа"
+        },
+        {
+          "page": "Поиск (панель шапки)",
+          "route": "любая страница",
+          "block": "Миниатюра результата поиска"
+        },
+        {
+          "page": "Карточка украшения",
+          "route": "/product/*",
+          "block": "Блок «Похожие украшения» (когда изделие попадает в подборку)"
+        }
+      ],
+      "reference_images": [],
+      "status": "pending"
+    }
+  ]
+}
