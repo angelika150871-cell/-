@@ -26,7 +26,7 @@
         }
       ],
       "reference_images": [
-        "Если уже сгенерирован «Колье Cascade Rivière» (№ 13) — загрузите его в чат как референс украшения"
+        "Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье"
       ],
       "status": "pending"
     },
@@ -51,7 +51,7 @@
         }
       ],
       "reference_images": [
-        "ОБЯЗАТЕЛЬНО: в том же чате загрузите готовое hero-desktop как референс модели, колье, света и стиля"
+        "ОБЯЗАТЕЛЬНО: в том же чате прикрепите готовое hero-desktop.png (модель, колье, свет) и принятое cascade-riviere-necklace-1.png"
       ],
       "status": "pending"
     },
@@ -76,7 +76,7 @@
         }
       ],
       "reference_images": [
-        "Загрузите готовую «Подвеску Éclat Solitaire» (№ 14) как референс украшения"
+        "Прикрепите принятое фото eclat-solitaire-pendant-1.png как референс подвески"
       ],
       "status": "pending"
     },
@@ -101,7 +101,7 @@
         }
       ],
       "reference_images": [
-        "Загрузите готовое «Помолвочное кольцо Promesse Round» (№ 19) как референс украшения"
+        "Прикрепите принятое фото promesse-round-solitaire-1.png как референс кольца"
       ],
       "status": "pending"
     },
@@ -126,7 +126,7 @@
         }
       ],
       "reference_images": [
-        "Загрузите готовые «Серьги-капли Lumière» (№ 11) как референс украшения"
+        "Прикрепите принятое фото lumiere-pear-drop-earrings-1.png как референс серьги"
       ],
       "status": "pending"
     },
@@ -151,7 +151,7 @@
         }
       ],
       "reference_images": [
-        "Загрузите готовые № 8 (кольцо Lumière Oval), № 11 (серьги-капли Lumière) и № 16 (браслет Lumière Rivière) как референсы"
+        "Прикрепите принятые фото: lumiere-riviere-bracelet-1.png, lumiere-oval-halo-ring-1.png, lumiere-pear-drop-earrings-1.png"
       ],
       "status": "pending"
     },
@@ -206,7 +206,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 8,
@@ -254,7 +254,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 9,
@@ -297,7 +297,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 10,
@@ -350,7 +350,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 11,
@@ -398,7 +398,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 12,
@@ -441,7 +441,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 13,
@@ -494,7 +494,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 14,
@@ -542,7 +542,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 15,
@@ -585,7 +585,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 16,
@@ -633,7 +633,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 17,
@@ -767,7 +767,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 20,

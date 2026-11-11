@@ -3,7 +3,7 @@
  * Запуск: npx tsx scripts/build-brief.ts — API не вызывается, расходов нет.
  * Данные изделий берутся из src/lib/products.ts, чтобы не расходились с каталогом.
  */
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { defaultMetal, getFeatured, getProducts } from "../src/lib/products";
 import { CATEGORY_LABEL, CUT_LABEL, METAL_LABEL, formatCarat, formatPrice } from "../src/lib/format";
 
@@ -174,7 +174,7 @@ entries.push({
   safeZone: "Всё украшение и подбородок — в области x 42–88%, y 28–80% кадра. Левые ~15% кадра плавно растворяются в слоновую кость градиентом сайта.",
   textSpace: "Левые ~40% кадра: пустой, мягко размытый тёплый фон слоновой кости/беж без деталей и без теней — туда на сайте накладывается заголовок «Свет, который остаётся с вами».",
   usedOn: [{ page: "Главная", route: "/", block: "Hero — первый экран (≥640 px)" }],
-  refs: ["Если уже сгенерирован «Колье Cascade Rivière» (№ 13) — загрузите его в чат как референс украшения"],
+  refs: ["Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье"],
   description: "Колье-ривьера Cascade Rivière (EV-N-001): белое золото 750, 52 круглых бриллианта, плавно уменьшающихся от центра к замку, у каждого своя корзина из 4 лапок, длина 42 см, лежит на основании шеи над ключицами.",
   composition: "Тесный бьюти-кадр: шея, ключицы и плечи модели; лицо обрезано по линии нижней губы/подбородка. Волосы убраны в низкий гладкий пучок, шея открыта. На модели — шёлковый топ цвета слоновой кости/шампань с открытыми плечами. Мягкий свет окна слева, естественная фактура кожи. Фон — тёплый размытый беж.",
   qc: ["Колье — ровная непрерывная линия камней, симметрично вокруг шеи, без обрыва", "Камни уменьшаются к застёжке, видны корзины", "Кожа с реальной фактурой, без пластика; ключицы анатомически верны", "Левые 40% кадра пустые и спокойные", "Нет текста, логотипов, лишних украшений"],
@@ -201,7 +201,7 @@ entries.push({
   safeZone: "Колье и шея — в области x 20–80%, y 38–68% (центральный квадрат). Всё важное внутри y 20–80%.",
   textSpace: "Текст на мобильном лежит под картинкой, но сверху и снизу оставьте по ~20% спокойного тёплого фона (без деталей), чтобы кадр не казался тесным.",
   usedOn: [{ page: "Главная", route: "/", block: "Hero — первый экран (<640 px)" }],
-  refs: ["ОБЯЗАТЕЛЬНО: в том же чате загрузите готовое hero-desktop как референс модели, колье, света и стиля"],
+  refs: ["ОБЯЗАТЕЛЬНО: в том же чате прикрепите готовое hero-desktop.png (модель, колье, свет) и принятое cascade-riviere-necklace-1.png"],
   description: "То же колье Cascade Rivière (EV-N-001) и та же модель, что в десктопном Hero — не новое украшение: 52 круглых бриллианта, белое золото, градуировка от центра к замку, корзины из 4 лапок.",
   composition: "Вертикальная перекомпоновка десктопного кадра: шея и колье по центру, чуть крупнее; свет слева, тот же тёплый беж. Лицо обрезано по линии губ/подбородка.",
   qc: ["Та же модель, прическа, топ и колье, что в desktop-версии", "Колье строго по центру, в пределах центрального квадрата", "Анатомия и кожа реалистичны", "Нет текста и посторонних деталей"],
@@ -228,7 +228,7 @@ entries.push({
   safeZone: "Лицо и подвеска — в области x 22–78%, y 18–82%. Подвеска на ключицах: x 42–58%, y 62–74%.",
   textSpace: "Текст лежит в отдельной колонке справа, поверх изображения его нет. Лицо модели обращено вправо — к тексту.",
   usedOn: [{ page: "Главная", route: "/", block: "Editorial Story — «Совершенство в каждой грани» (левая фотография)" }],
-  refs: ["Загрузите готовую «Подвеску Éclat Solitaire» (№ 14) как референс украшения"],
+  refs: ["Прикрепите принятое фото eclat-solitaire-pendant-1.png как референс подвески"],
   description: "Подвеска Éclat Solitaire (EV-N-002): белое золото 750, один круглый бриллиант ≈0,45 ct (≈4,9 мм) в 4 лапках на очень тонкой якорной цепочке 42 см.",
   composition: "Портрет по грудь в три четверти: лицо слегка повёрнуто вправо, взгляд за кадр, подбородок чуть приподнят; плечи открыты. Фон — глубокий винный шёлк (#482E35) мягкими складками. Мягкий тёплый свет окна слева, лёгкая светотень, выразительная, но спокойная подача.",
   qc: ["Кожа и лицо без «пластика», естественные поры и свет", "Подвеска одна, камень круглый в четырёх лапках, цепочка тонкая и непрерывная", "Ключицы, шея, уши анатомически верны", "Нет второй цепочки или лишних украшений"],
@@ -254,15 +254,15 @@ entries.push({
   safeZone: "Кольцо и пальцы — в центральной трети: x 36–64%, y 14–58%. Вся композиция рук — не шире ~45% кадра.",
   textSpace: "Нижние ~38% кадра (y 62–100%) — тёмный спокойный винный фон без деталей: туда накладывается заголовок «Искусство оставаться незабываемой» (слева снизу) под градиентом.",
   usedOn: [{ page: "Дом ÉLAVÉRA", route: "/maison", block: "Первый экран — полноэкранный фон" }],
-  refs: ["Загрузите готовое «Помолвочное кольцо Promesse Round» (№ 19) как референс украшения"],
-  description: "Помолвочное кольцо Promesse Round (EV-P-001): белое золото (платина-вид), круглый бриллиант ≈1,00 ct в 6 лапках, ободок 1,8 мм.",
+  refs: ["Прикрепите принятое фото promesse-round-solitaire-1.png как референс кольца"],
+  description: "Помолвочное кольцо Promesse Round (EV-P-001): ЖЁЛТОЕ золото 750 (как на принятом фото), круглый бриллиант ≈1,00 ct в 6 лапках, тонкий гладкий ободок 1,8 мм.",
   composition: "Две женские руки в сдержанном жесте: левая рука с кольцом на безымянном пальце, правая бережно поддерживает её; пальцы расслаблены, ногти короткие овальные, без яркого лака. Руки на глубоком винном шёлке/бархате. Свет направленный тёплый сверху-слева, мягкая падающая тень.",
-  qc: ["У каждой руки ровно пять пальцев, суставы и ногти естественны", "Кольцо — солитёр с шестью лапками на безымянном пальце, посадка верная", "Кожа с фактурой, без глянцевого «пластика»", "Нижняя треть кадра тёмная и пустая"],
+  qc: ["У каждой руки ровно пять пальцев, суставы и ногти естественны", "Кольцо — жёлтое золото, солитёр с шестью лапками на безымянном пальце, посадка верная", "Кожа с фактурой, без глянцевого «пластика»", "Нижняя треть кадра тёмная и пустая"],
   prompt: "",
 });
 entries[3].prompt = `Create a photorealistic luxury fashion-editorial close-up in wide 3:2 landscape format for the hero of a premium European diamond jewelry house.
 
-SUBJECT: two elegant female hands of ${MODEL}, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished white-gold band (1.8 mm, platinum-look), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
+SUBJECT: two elegant female hands of ${MODEL}, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished soft champagne-yellow gold band (1.8 mm, plain, no side stones), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
 
 COMPOSITION: the cluster of hands is compact and centered horizontally (not wider than 45% of the frame), with the ring at about 50% from the left and 34% from the top; all fingers and the ring lie within x 36–64% and y 14–58%. The bottom 38% of the frame is calm, dark, softly out-of-focus wine-coloured fabric with no detail, reserved for website headline text. Camera: 100 mm macro-portrait lens at f/4, slightly above the hands, sharp focus on the diamond and ring finger, gentle falloff.
 
@@ -280,7 +280,7 @@ entries.push({
   safeZone: "Лицо, ухо и серьга — в области x 25–78%, y 16–78%. Серьга: x 55–70%, y 42–62%.",
   textSpace: "Текст в левой колонке рядом, на фото его нет. Свободное пространство не требуется, но фон должен быть спокойным.",
   usedOn: [{ page: "Дом ÉLAVÉRA", route: "/maison", block: "История и философия — вертикальный портрет справа" }],
-  refs: ["Загрузите готовые «Серьги-капли Lumière» (№ 11) как референс украшения"],
+  refs: ["Прикрепите принятое фото lumiere-pear-drop-earrings-1.png как референс серьги"],
   description: "Серьги-капли Lumière (EV-E-002): белое золото 750, длина ≈28 мм; сверху малый круглый бриллиант, на звене крошечный круглый, внизу бриллиант-груша в 6-лапковой корзине; всего 6 камней на пару, ≈1,20 ct.",
   composition: "Тесный портрет в три четверти: лицо повёрнуто влево, ухо и серьга справа от центра в чётком фокусе; волосы убраны за ухо, шея и линия челюсти видны. Тёплый нейтральный фон (#E9E0D5), мягкий боковой свет слева.",
   qc: ["Серьга: круглый камень сверху, груша внизу, тонкое звено между ними", "Ухо и мочка анатомически правильны, серьга сидит правильно", "Кожа и волосы фотореалистичны", "Только одна серьга в кадре (на видимом ухе), без лишних украшений"],
@@ -306,7 +306,7 @@ entries.push({
   safeZone: "Все три украшения — в области x 48–82%, y 26–76%. Центр композиции ≈ x 62%, y 50%.",
   textSpace: "Левые ~42% кадра (x 0–42%) — глубокая мягкая тень винного бархата без предметов: там заголовок «Ваш свет уже ждёт» и кнопка.",
   usedOn: [{ page: "Главная", route: "/", block: "Заключительная секция — полноэкранный фон перед переходом в каталог" }],
-  refs: ["Загрузите готовые № 8 (кольцо Lumière Oval), № 11 (серьги-капли Lumière) и № 16 (браслет Lumière Rivière) как референсы"],
+  refs: ["Прикрепите принятые фото: lumiere-riviere-bracelet-1.png, lumiere-oval-halo-ring-1.png, lumiere-pear-drop-earrings-1.png"],
   description: "Ансамбль коллекции Lumière из каталога, все изделия в белом золоте 750: браслет Lumière Rivière (EV-B-001, 44 круглых бриллианта ≈3,20 ct), кольцо Lumière Oval (EV-R-002, овальный камень ≈7,6×5,4 мм и ореол), серьги-капли Lumière (EV-E-002, груша). Конструкции и пропорции — строго как на товарных фото.",
   composition: "Низкий ключ: натюрморт на глубоком винном бархате (#482E35). Браслет — мягкая дуга в центре композиции, кольцо стоит на ободке перед ним слегка левее, пара серёг лежит чуть правее и выше. Асимметричный баланс, много воздуха. Узкие мягкие пятна света, тёплые блики на золоте, контролируемые вспышки на бриллиантах.",
   qc: ["Три изделия соответствуют товарным фото: браслет-ривьера, овальное кольцо с ореолом, серьги-груши", "Конструкции не искажены, нет лишних украшений", "Левые 42% кадра тёмные и пустые", "Фактура бархата реалистична, нет шума и блёсток"],
@@ -369,6 +369,20 @@ ${NEG}`;
   });
 });
 
+// Референсные фото украшений (принятые) → строка REFERENCE в промптах Hero/editorial
+const REF_LINE: Record<string, string> = {
+  "hero-desktop": "the attached photo shows the exact necklace (graduated round brilliant rivière, white gold, four-claw baskets); reproduce this piece faithfully on the model",
+  "hero-mobile": "the attached desktop hero image and the attached necklace photo define the exact necklace and model; keep them identical",
+  "editorial-1": "the attached photo shows the exact solitaire pendant (round brilliant, four-claw, fine chain); reproduce it faithfully",
+  "editorial-2": "the attached photo shows the exact ring (round brilliant, six claws, thin plain yellow-gold band); reproduce it faithfully on the ring finger",
+  "editorial-3": "the attached photo shows the exact drop earrings (small round on top, tiny round on the link, pear below); reproduce one of them faithfully on the visible ear",
+  "editorial-4": "the attached photos show the exact bracelet, oval halo ring and drop earrings; reproduce these pieces faithfully, do not redesign them",
+};
+for (const e of entries) if (REF_LINE[e.id]) e.prompt = e.prompt.replace(STYLE, `REFERENCE: ${REF_LINE[e.id]}.\n\n${STYLE}`);
+
+// Что уже принято (импортировано в public/images/manifest.json)
+const received = new Set<string>(existsSync("public/images/manifest.json") ? JSON.parse(readFileSync("public/images/manifest.json", "utf8")).images : []);
+
 // ───────────────────────── Markdown ─────────────────────────
 const stoneCount = entries.length;
 const md: string[] = [];
@@ -412,8 +426,7 @@ md.push(`# ÉLAVÉRA — ТЗ на создание ${stoneCount} изображ
 ${entries.map((e) => `| ${String(e.n).padStart(2, "0")} | \`${e.file}\` | \`${e.path}\` | ${e.generateRatio.split(" ")[0]} | ${e.usedOn[0].page}: ${e.usedOn[0].block.split("—")[0].trim()} |`).join("\n")}
 `);
 
-for (const e of entries) {
-  md.push(`---
+const renderEntry = (e: Entry) => `---
 
 ## № ${String(e.n).padStart(2, "0")}. ${e.title}
 
@@ -446,9 +459,44 @@ ${e.prompt}
 
 **Чек-лист приёмки:**
 ${e.qc.map((q) => `- [ ] ${q}`).join("\n")}
-`);
-}
+`;
+for (const e of entries) md.push(renderEntry(e));
 writeFileSync("IMAGE_GENERATION_BRIEF.md", md.join("\n"));
+
+// ───────────────────────── ТЗ только на недостающие кадры ─────────────────────────
+const missing = entries.filter((e) => !received.has(e.key));
+const accepted = entries.filter((e) => received.has(e.key));
+const mm: string[] = [];
+mm.push(`# ÉLAVÉRA — ТЗ на недостающие изображения (${missing.length} шт.)
+
+> Сгенерировано автоматически (\`npx tsx scripts/build-brief.ts\`) из полного ТЗ \`IMAGE_GENERATION_BRIEF.md\`: здесь только кадры, которых ещё нет на сайте. Номера сохранены из полного ТЗ.
+
+## 0. Что принято и что осталось
+
+Принято и работает на сайте: **${accepted.length} из ${entries.length}** (все — товарные фото). Осталось: **${missing.filter((e) => e.kind !== "product").length} имиджевых кадров** (Hero и editorial) и **${missing.filter((e) => e.kind === "product").length} товарных**.
+
+| № | Файл | Что это | Ратио |
+|---|---|---|---|
+${missing.map((e) => `| ${String(e.n).padStart(2, "0")} | \`${e.file}\` | ${e.title} | ${e.generateRatio.split(" ")[0]} |`).join("\n")}
+
+## 1. Порядок работы (важно)
+
+1. **Сначала товарные кадры** (№ ${missing.filter((e) => e.kind === "product").map((e) => e.n).join(", ")}), потом имиджевые (№ ${missing.filter((e) => e.kind !== "product").map((e) => e.n).join(", ")}).
+2. **Принятые фото — ваш главный референс стиля.** В каждом новом чате прикрепите 2 из них и напишите: *«Match the exact photographic style of these two reference photos: same warm ivory background, same soft light from the upper left, same scale, same level of realism, same polished metal and diamond rendering»*. Рекомендуемая пара: \`aube-huggie-hoops-1.png\` и \`lumiere-riviere-bracelet-1.png\`.
+3. **Для Hero и editorial прикрепляйте фото украшения** — какое именно, указано в поле «Референсы» каждого задания. Hero-desktop и Hero-mobile и все портреты с моделью делайте **в одном чате**, чтобы внешность модели совпадала.
+4. Одно изображение — одно сообщение; копируйте блок PROMPT целиком. Просите максимальное разрешение и PNG.
+5. Края товарных кадров — ровный фон цвета слоновой кости (как в принятых: ≈ #F3EDE7), без виньетки; изделие целиком, не касается краёв.
+6. Присылайте файлами или архивом (имена могут быть любыми: я определяю содержимое по виду), затем я импортирую их и проверю на сайте.
+
+**Принятые фото (референсы стиля и украшений):** ${accepted.map((e) => `\`${e.file}\``).join(", ")}.
+
+**Критерии приёмки для людей и рук:** естественная фактура кожи (поры, мягкий блеск, без «пластика»), по пять пальцев, корректная анатомия, украшение сидит физически правдоподобно; **без текста, логотипов и водяных знаков**.
+
+## 2. Открытый вопрос по Promesse Oval
+По каталогу это кольцо со **скрытым** ореолом (мелкие камни под центральным, видны сбоку). Присланный ранее кадр #16 показывал **видимый** ореол и паве на ободке. Если вы хотите принять тот вариант, пропустите это задание — я поправлю описание в каталоге. Если нет, генерируйте по заданию ниже.
+`);
+for (const e of missing) mm.push(renderEntry(e));
+writeFileSync("IMAGE_BRIEF_MISSING.md", mm.join("\n"));
 
 // ───────────────────────── JSON ─────────────────────────
 const json = {
@@ -463,8 +511,8 @@ const json = {
     product_id: e.productId ?? null, product_slug: e.slug ?? null,
     generate_ratio: e.generateRatio, generate_size: e.generateSize,
     safe_zone: e.safeZone, text_space: e.textSpace,
-    used_on: e.usedOn, reference_images: e.refs, status: "pending",
+    used_on: e.usedOn, reference_images: e.refs, status: received.has(e.key) ? "received" : "pending",
   })),
 };
 writeFileSync("IMAGE_MANIFEST.json", JSON.stringify(json, null, 2));
-console.log(`Brief: ${entries.length} entries`);
+console.log(`Brief: ${entries.length} entries; missing: ${missing.length} (${missing.map((e) => e.n).join(", ")})`);

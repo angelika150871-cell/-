@@ -81,7 +81,7 @@
 
 **Свободное место под текст:** Левые ~40% кадра: пустой, мягко размытый тёплый фон слоновой кости/беж без деталей и без теней — туда на сайте накладывается заголовок «Свет, который остаётся с вами».
 
-**Референсы:** Если уже сгенерирован «Колье Cascade Rivière» (№ 13) — загрузите его в чат как референс украшения
+**Референсы:** Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -95,6 +95,8 @@ SUBJECT: an elegant woman's neck, collarbones and bare shoulders, wearing a plat
 COMPOSITION: the neck and necklace are placed in the right half of the frame (necklace centre at about 66% from the left, 55% from the top); the whole jewelry lies within x 42–88% and y 28–80% of the frame. The left 40% of the frame is calm, empty, softly out-of-focus warm ivory-beige backdrop with no objects, no hard shadows and no detail — reserved for website headline text. Camera: 85 mm portrait lens at f/4, eye-level, slightly turned three-quarter view of the model, sharp focus on the necklace diamonds, gentle falloff elsewhere.
 
 LIGHT AND COLOUR: soft diffused window light from the left, gentle gradient shadow on the neck and shoulders, bright clean specular highlights on the polished gold, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds, physically plausible reflections. Warm, quiet, restrained colour palette of ivory, champagne and soft beige; refined editorial mood; no heavy vignette.
+
+REFERENCE: the attached photo shows the exact necklace (graduated round brilliant rivière, white gold, four-claw baskets); reproduce this piece faithfully on the model.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -131,7 +133,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Свободное место под текст:** Текст на мобильном лежит под картинкой, но сверху и снизу оставьте по ~20% спокойного тёплого фона (без деталей), чтобы кадр не казался тесным.
 
-**Референсы:** ОБЯЗАТЕЛЬНО: в том же чате загрузите готовое hero-desktop как референс модели, колье, света и стиля
+**Референсы:** ОБЯЗАТЕЛЬНО: в том же чате прикрепите готовое hero-desktop.png (модель, колье, свет) и принятое cascade-riviere-necklace-1.png
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -145,6 +147,8 @@ SUBJECT: an elegant woman's neck, collarbones and bare shoulders, wearing a poli
 COMPOSITION: the necklace and neck are centered horizontally and placed in the vertical middle of the frame (necklace centre at about 50% from the left and 52% from the top). Keep all important elements within x 20–80% and y 30–72% of the frame, because the website crops this image to a centered square. Roughly the top 20% and bottom 20% of the frame are calm, softly out-of-focus warm ivory-beige backdrop (top) and silk fabric falling softly out of focus (bottom). Camera: 85 mm portrait lens at f/4, eye-level, very slight three-quarter turn, sharp focus on the diamonds.
 
 LIGHT AND COLOUR: soft diffused window light from the left, gentle shadow gradient on the neck, bright clean highlights on polished gold, crisp tiny white sparkles with a few subtle prismatic flashes, physically plausible reflections; warm restrained palette of ivory, champagne and soft beige; no vignette.
+
+REFERENCE: the attached desktop hero image and the attached necklace photo define the exact necklace and model; keep them identical.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -180,7 +184,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Свободное место под текст:** Текст лежит в отдельной колонке справа, поверх изображения его нет. Лицо модели обращено вправо — к тексту.
 
-**Референсы:** Загрузите готовую «Подвеску Éclat Solitaire» (№ 14) как референс украшения
+**Референсы:** Прикрепите принятое фото eclat-solitaire-pendant-1.png как референс подвески
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -194,6 +198,8 @@ SUBJECT: the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm
 COMPOSITION: the face and pendant stay within x 22–78% and y 18–82% of the frame; the pendant sits at about 50% from the left and 68% from the top and is in crisp focus; background is deep wine-coloured (#482E35) silk drapery in soft out-of-focus folds with a subtle warm gradient. Camera: 85 mm lens at f/2.8, eye-level, focus on the pendant diamond and the eyes' plane, gentle falloff.
 
 LIGHT AND COLOUR: soft warm window light from the left with gentle shadow transition on the right side of the face and neck, subtle rim light on the shoulder, bright clean highlights on the gold and a crisp tiny white sparkle with a faint prismatic flash on the diamond. Rich but restrained palette of wine, warm skin tones and champagne; quiet luxury editorial mood.
+
+REFERENCE: the attached photo shows the exact solitaire pendant (round brilliant, four-claw, fine chain); reproduce it faithfully.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -221,7 +227,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 **Где используется:**
 - Дом ÉLAVÉRA (`/maison`): Первый экран — полноэкранный фон
 
-**Украшение:** Помолвочное кольцо Promesse Round (EV-P-001): белое золото (платина-вид), круглый бриллиант ≈1,00 ct в 6 лапках, ободок 1,8 мм.
+**Украшение:** Помолвочное кольцо Promesse Round (EV-P-001): ЖЁЛТОЕ золото 750 (как на принятом фото), круглый бриллиант ≈1,00 ct в 6 лапках, тонкий гладкий ободок 1,8 мм.
 
 **Композиция, ракурс, свет, фон:** Две женские руки в сдержанном жесте: левая рука с кольцом на безымянном пальце, правая бережно поддерживает её; пальцы расслаблены, ногти короткие овальные, без яркого лака. Руки на глубоком винном шёлке/бархате. Свет направленный тёплый сверху-слева, мягкая падающая тень.
 
@@ -229,7 +235,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Свободное место под текст:** Нижние ~38% кадра (y 62–100%) — тёмный спокойный винный фон без деталей: туда накладывается заголовок «Искусство оставаться незабываемой» (слева снизу) под градиентом.
 
-**Референсы:** Загрузите готовое «Помолвочное кольцо Promesse Round» (№ 19) как референс украшения
+**Референсы:** Прикрепите принятое фото promesse-round-solitaire-1.png как референс кольца
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -238,11 +244,13 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 ```text
 Create a photorealistic luxury fashion-editorial close-up in wide 3:2 landscape format for the hero of a premium European diamond jewelry house.
 
-SUBJECT: two elegant female hands of the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished white-gold band (1.8 mm, platinum-look), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
+SUBJECT: two elegant female hands of the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm light-olive skin with real natural texture (fine pores, subtle tonal variation, tiny natural imperfections, soft natural sheen), dark chestnut hair, minimal neutral makeup with a soft matte complexion, calm confident expression, shown in a calm, restrained gesture: the left hand rests with the fingers relaxed and gently curved, wearing a classic solitaire engagement ring on the ring finger; the right hand lightly supports it from underneath. Hands are fully natural: exactly five fingers each, natural joints, knuckles and finger length, short neat oval nails with a nude sheer finish, realistic skin with fine texture, tiny natural creases and soft sheen, no airbrushing. The ring: thin polished soft champagne-yellow gold band (1.8 mm, plain, no side stones), one round brilliant-cut diamond of about 1.00 ct (about 6.4 mm) in a six-claw high setting, accurate facet pattern and crisp highlights. No other jewelry. The hands rest on deep wine-coloured (#482E35) silk-velvet with soft natural folds.
 
 COMPOSITION: the cluster of hands is compact and centered horizontally (not wider than 45% of the frame), with the ring at about 50% from the left and 34% from the top; all fingers and the ring lie within x 36–64% and y 14–58%. The bottom 38% of the frame is calm, dark, softly out-of-focus wine-coloured fabric with no detail, reserved for website headline text. Camera: 100 mm macro-portrait lens at f/4, slightly above the hands, sharp focus on the diamond and ring finger, gentle falloff.
 
 LIGHT AND COLOUR: directional warm key light from the upper left, soft shadows, bright clean highlights on the polished gold, a crisp tiny white sparkle with subtle prismatic flashes on the diamond; rich low-key palette of wine, warm skin tones and champagne; quiet luxury editorial mood.
+
+REFERENCE: the attached photo shows the exact ring (round brilliant, six claws, thin plain yellow-gold band); reproduce it faithfully on the ring finger.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -251,7 +259,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Чек-лист приёмки:**
 - [ ] У каждой руки ровно пять пальцев, суставы и ногти естественны
-- [ ] Кольцо — солитёр с шестью лапками на безымянном пальце, посадка верная
+- [ ] Кольцо — жёлтое золото, солитёр с шестью лапками на безымянном пальце, посадка верная
 - [ ] Кожа с фактурой, без глянцевого «пластика»
 - [ ] Нижняя треть кадра тёмная и пустая
 
@@ -278,7 +286,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Свободное место под текст:** Текст в левой колонке рядом, на фото его нет. Свободное пространство не требуется, но фон должен быть спокойным.
 
-**Референсы:** Загрузите готовые «Серьги-капли Lumière» (№ 11) как референс украшения
+**Референсы:** Прикрепите принятое фото lumiere-pear-drop-earrings-1.png как референс серьги
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -292,6 +300,8 @@ SUBJECT: the ÉLAVÉRA brand model: an elegant woman in her early thirties, warm
 COMPOSITION: the earring is placed at about 62% from the left and 52% from the top and is in crisp focus; the face, ear and earring stay within x 25–78% and y 16–78%. Background: seamless soft warm beige (#E9E0D5) with a gentle gradient, no objects. Camera: 100 mm portrait lens at f/3.2, eye-level, focus on the earring diamonds with soft falloff on the face edge.
 
 LIGHT AND COLOUR: soft side light from the left, gentle shadow transition across the cheek and neck, bright clean highlights on the polished gold, crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds; warm restrained palette of beige, champagne and natural skin tones; quiet luxury editorial mood.
+
+REFERENCE: the attached photo shows the exact drop earrings (small round on top, tiny round on the link, pear below); reproduce one of them faithfully on the visible ear.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
@@ -327,7 +337,7 @@ STRICTLY AVOID: any text, letters, numbers, logos, watermarks, brand marks, engr
 
 **Свободное место под текст:** Левые ~42% кадра (x 0–42%) — глубокая мягкая тень винного бархата без предметов: там заголовок «Ваш свет уже ждёт» и кнопка.
 
-**Референсы:** Загрузите готовые № 8 (кольцо Lumière Oval), № 11 (серьги-капли Lumière) и № 16 (браслет Lumière Rivière) как референсы
+**Референсы:** Прикрепите принятые фото: lumiere-riviere-bracelet-1.png, lumiere-oval-halo-ring-1.png, lumiere-pear-drop-earrings-1.png
 
 **Единый стиль:** палитра, золото, бриллианты, свет и запреты ÉLAVÉRA встроены в промпт ниже; не удаляйте их при копировании.
 
@@ -341,6 +351,8 @@ SUBJECT: three white-gold diamond jewelry pieces from one collection arranged on
 COMPOSITION: asymmetrical and balanced; all three pieces lie within x 48–82% and y 26–76% of the frame, centred at about 62% from the left and 50% from the top. The left 42% of the frame is deep, soft, empty wine-coloured velvet fading into shadow, with no objects, reserved for website headline text. Camera: 100 mm macro lens at f/8, slightly above the surface at about 35 degrees, everything sharp from the ring to the earrings.
 
 LIGHT AND COLOUR: low-key lighting with a large soft key from the upper left plus a narrow soft accent light creating gentle warm highlights on the gold and soft sheen on the velvet pile; crisp tiny white sparkles with a few subtle prismatic flashes on the diamonds; dark rich palette of wine, graphite and champagne; quiet luxury mood, no glitter, no bokeh sparkles.
+
+REFERENCE: the attached photos show the exact bracelet, oval halo ring and drop earrings; reproduce these pieces faithfully, do not redesign them.
 
 ÉLAVÉRA house style: luxury jewelry campaign photography for a premium European fine-jewelry house; quiet luxury, editorial, contemporary European elegance; strict photographic realism, shot on a full-frame camera with a high-end macro or portrait lens; restrained, sophisticated, never flashy. Palette: warm ivory (#F5F1EA), milk white (#FCFAF7), soft beige (#E9E0D5), muted champagne (#C5AC86), with deep wine (#482E35) and graphite (#242220) used sparingly. Gold is polished 18k: white gold reads as bright, slightly warm silver-white (not grey, not blue); yellow gold is a soft muted champagne-yellow (never saturated or orange); rose gold is a gentle pink-copper. Diamonds have physically plausible brilliant-cut geometry with accurate facet patterns (table, crown facets, girdle), crisp tiny white highlights, subtle spectral fire in only a few facets, and realistic refraction and reflection of the warm-white environment; no starburst filters, no lens-flare stars, no glitter bokeh, no artificial glow. Metal shows accurate soft gradient reflections of a large softbox, clean polished surfaces and correct thickness. Lighting: large soft key light from the upper left, gentle fill from the right, soft natural shadows, very subtle contact shadow, no hard flash. Consistent warm colour grading across the whole series.
 
