@@ -25,8 +25,8 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-ivory" aria-labelledby="hero-title">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[64%]">
           <div className="relative aspect-square w-full sm:aspect-[16/10] lg:aspect-auto lg:h-full">
-            <JewelImage src="hero/hero-desktop" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="(min-width:1024px) 64vw, 100vw" priority position="70% 50%" category="necklaces" cut="pear" className="hidden sm:block" />
-            <JewelImage src="hero/hero-mobile" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="100vw" priority position="50% 50%" category="necklaces" cut="pear" className="sm:hidden" />
+            <JewelImage src="hero/hero-desktop" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="(min-width:1024px) 64vw, 100vw" priority position="80% 50%" category="necklaces" cut="pear" className="hidden sm:block" />
+            <JewelImage src="hero/hero-mobile" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="100vw" priority position="50% 34%" category="necklaces" cut="pear" className="sm:hidden" />
             <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/4 bg-gradient-to-r from-ivory to-transparent lg:block" />
           </div>
         </div>
@@ -94,8 +94,8 @@ export default function HomePage() {
       {/* EDITORIAL STORY */}
       <section data-dark className="relative overflow-hidden bg-wine text-ivory" aria-labelledby="story-title">
         <div className="grid lg:grid-cols-12">
-          <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:col-span-7 lg:aspect-auto lg:min-h-[44rem]">
-            <JewelImage src="editorial/editorial-1" alt="Портрет в колье с бриллиантами, мягкий естественный свет" sizes="(min-width:1024px) 58vw, 100vw" position="50% 40%" category="necklaces" cut="oval" tone="dark" />
+          <div className="relative aspect-[4/5] sm:aspect-[4/3] lg:col-span-7 lg:aspect-auto lg:min-h-[44rem]">
+            <JewelImage src="editorial/editorial-1" alt="Портрет в колье с бриллиантами, мягкий естественный свет" sizes="(min-width:1024px) 58vw, 100vw" position="50% 55%" category="necklaces" cut="oval" tone="dark" />
           </div>
           <div className="flex flex-col justify-center px-[clamp(1.25rem,4vw,4rem)] py-16 lg:col-span-5 lg:py-24 lg:pr-[clamp(2rem,6vw,7rem)]">
             <Reveal>

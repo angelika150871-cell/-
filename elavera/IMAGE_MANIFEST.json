@@ -29,7 +29,7 @@
         "Прикрепите принятое фото cascade-riviere-necklace-1.png как референс колье",
         "Эскиз 01_hero-desktop-preview.jpg — только как референс композиции и образа модели (серьгу убрать, колье исправить)"
       ],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 2,
@@ -54,7 +54,7 @@
       "reference_images": [
         "ОБЯЗАТЕЛЬНО: в том же чате прикрепите готовое hero-desktop.png (модель, колье, свет) и принятое cascade-riviere-necklace-1.png"
       ],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 3,
@@ -79,7 +79,7 @@
       "reference_images": [
         "Прикрепите принятое фото eclat-solitaire-pendant-1.png как референс подвески"
       ],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 4,
@@ -104,7 +104,7 @@
       "reference_images": [
         "Прикрепите принятое фото promesse-round-solitaire-1.png как референс кольца"
       ],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 5,
@@ -129,7 +129,7 @@
       "reference_images": [
         "Прикрепите принятое фото lumiere-pear-drop-earrings-1.png как референс серьги"
       ],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 6,
@@ -677,7 +677,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 18,
@@ -720,7 +720,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 19,
@@ -811,7 +811,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 21,
@@ -854,7 +854,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     },
     {
       "order": 22,
@@ -897,7 +897,7 @@
         }
       ],
       "reference_images": [],
-      "status": "pending"
+      "status": "received"
     }
   ]
 }

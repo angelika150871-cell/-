@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-11-11T18:10:38.060Z",
+  "generatedAt": "2026-11-11T18:32:45.782Z",
   "images": [
+    "editorial/editorial-1",
+    "editorial/editorial-2",
+    "editorial/editorial-3",
+    "hero/hero-desktop",
+    "hero/hero-mobile",
+    "products/aube-chain-bracelet-1",
     "products/aube-huggie-hoops-1",
     "products/aube-oval-pendant-1",
     "products/aube-pave-ring-1",
@@ -10,7 +16,11 @@
     "products/lumiere-oval-halo-ring-1",
     "products/lumiere-pear-drop-earrings-1",
     "products/lumiere-riviere-bracelet-1",
+    "products/orbite-bangle-1",
     "products/orbite-toi-et-moi-ring-1",
+    "products/promesse-emerald-trilogy-1",
+    "products/promesse-oval-hidden-halo-1",
+    "products/promesse-pear-solitaire-1",
     "products/promesse-round-solitaire-1"
   ],
   "bg": {
@@ -24,6 +34,11 @@
     "products/lumiere-pear-drop-earrings-1": "#F2ECE5",
     "products/lumiere-riviere-bracelet-1": "#F3EDE8",
     "products/orbite-toi-et-moi-ring-1": "#F2EAE3",
-    "products/promesse-round-solitaire-1": "#F6F0EA"
+    "products/promesse-round-solitaire-1": "#F6F0EA",
+    "products/aube-chain-bracelet-1": "#F3EEE7",
+    "products/orbite-bangle-1": "#F4EBE7",
+    "products/promesse-emerald-trilogy-1": "#F4ECE5",
+    "products/promesse-oval-hidden-halo-1": "#F3EBE4",
+    "products/promesse-pear-solitaire-1": "#F4ECE5"
   }
 }
