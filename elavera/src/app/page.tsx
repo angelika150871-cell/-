@@ -24,7 +24,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-ivory" aria-labelledby="hero-title">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[64%]">
-          <div className="relative aspect-[4/5] w-full sm:aspect-[16/10] lg:aspect-auto lg:h-full">
+          <div className="relative aspect-square w-full sm:aspect-[16/10] lg:aspect-auto lg:h-full">
             <JewelImage src="hero/hero-desktop" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="(min-width:1024px) 64vw, 100vw" priority category="necklaces" cut="pear" className="hidden sm:block" />
             <JewelImage src="hero/hero-mobile" alt="Колье с бриллиантами на тёплом фоне — кампейн ÉLAVÉRA" sizes="100vw" priority category="necklaces" cut="pear" className="sm:hidden" />
             <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/4 bg-gradient-to-r from-ivory to-transparent lg:block" />
@@ -161,7 +161,7 @@ export default function HomePage() {
       {/* ФИНАЛ */}
       <section data-dark className="relative isolate overflow-hidden bg-graphite text-ivory" aria-labelledby="final-title">
         <div className="absolute inset-0 -z-10">
-          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" category="engagement" cut="round" tone="dark" />
+          <JewelImage src="editorial/editorial-4" alt="Бриллиантовое колье на тёмном бархате — финальный кадр" sizes="100vw" category="engagement" cut="round" tone="dark" artSide="right" />
           <div className="absolute inset-0 bg-gradient-to-r from-graphite/90 via-graphite/55 to-transparent" />
         </div>
         <div className="container-x flex min-h-[32rem] flex-col justify-center py-20 lg:min-h-[40rem]">

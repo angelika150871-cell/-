@@ -24,7 +24,7 @@ export default function MaisonPage() {
       {/* 1. HERO */}
       <section data-dark className="relative isolate flex min-h-[calc(100svh-4.5rem)] items-end overflow-hidden bg-wine text-ivory" aria-labelledby="m-title">
         <div className="absolute inset-0 -z-10">
-          <JewelImage src="editorial/editorial-2" alt="Руки в тёплом свете с бриллиантовым кольцом" sizes="100vw" priority category="engagement" cut="round" tone="dark" />
+          <JewelImage src="editorial/editorial-2" alt="Руки в тёплом свете с бриллиантовым кольцом" sizes="100vw" priority category="engagement" cut="round" tone="dark" artSide="right" />
           <div className="absolute inset-0 bg-gradient-to-t from-graphite/85 via-graphite/25 to-transparent" />
         </div>
         <div className="container-x pb-14 pt-40 lg:pb-20">
@@ -88,7 +88,7 @@ export default function MaisonPage() {
           {[
             ["macro/macro-1", "Паве: бриллианты в ряд на тонком ободке", "col-span-2 lg:col-span-7", "aspect-[16/10]", "rings", "round"],
             ["macro/macro-2", "Лапки: четыре точки опоры", "lg:col-span-5 lg:mt-20", "aspect-[4/5]", "engagement", "oval"],
-            ["macro/macro-3", "Грани и баланс света", "col-span-2 lg:col-span-5 lg:col-start-3", "aspect-[16/10] lg:aspect-[5/4]", "earrings", "emerald"],
+            ["macro/macro-3", "Грани и баланс света", "col-span-2 lg:col-span-6", "aspect-[16/10] lg:aspect-[5/4]", "earrings", "emerald"],
           ].map(([key, cap, cls, ar, cat, cut], i) => (
             <Reveal key={key} delay={i * 0.07} className={cls}>
               <figure>
@@ -99,6 +99,20 @@ export default function MaisonPage() {
               </figure>
             </Reveal>
           ))}
+          <Reveal className="col-span-2 flex items-center lg:col-span-4 lg:col-start-9">
+            <p className="font-serif text-[clamp(1.5rem,2.4vw,2.25rem)] italic leading-snug text-wine">Мы смотрим на украшение так близко, как смотрит тот, кто его носит.</p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ПОЛНОШИРИННЫЙ КАДР */}
+      <section data-dark className="relative isolate flex min-h-[26rem] items-end overflow-hidden bg-graphite text-ivory lg:min-h-[36rem]" aria-label="Игра света на закрепке">
+        <div className="absolute inset-0 -z-10">
+          <JewelImage src="macro/macro-1" alt="Макрокадр: бриллианты паве на золотом ободке" sizes="100vw" category="rings" cut="round" tone="dark" artSide="right" />
+          <div className="absolute inset-0 bg-gradient-to-r from-graphite/85 via-graphite/40 to-transparent" />
+        </div>
+        <div className="container-x pb-12 lg:pb-16">
+          <p className="max-w-xl font-serif text-[clamp(1.75rem,3.4vw,3rem)] leading-tight">Свет не лежит на камне — он проходит сквозь него и возвращается иначе.</p>
         </div>
       </section>
 

@@ -54,7 +54,7 @@ export default function Drawer({
         aria-modal="true"
         aria-label={label}
         inert={!open}
-        className={`absolute top-0 flex h-full w-full ${width} flex-col bg-milk shadow-[0_0_60px_rgba(36,34,32,.15)] transition-transform duration-[420ms] ease-[var(--ease-lux)] ${
+        className={`absolute top-0 flex h-full w-full ${width} flex-col bg-milk ${open ? "shadow-[0_0_60px_rgba(36,34,32,.15)]" : ""} transition-transform duration-[420ms] ease-[var(--ease-lux)] ${
           side === "right" ? "right-0" : "left-0"
         } ${open ? "translate-x-0" : side === "right" ? "translate-x-full" : "-translate-x-full"}`}
       >

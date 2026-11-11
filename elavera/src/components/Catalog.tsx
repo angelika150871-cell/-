@@ -52,14 +52,14 @@ function CatalogInner() {
   const title = f.category ? CATEGORY_LABEL[f.category] : "Все украшения";
 
   return (
-    <div className="container-x pb-24 pt-10 lg:pt-14">
+    <div className="container-x pb-24 pt-8 lg:pt-10">
       <header className="max-w-3xl">
         <nav aria-label="Хлебные крошки" className="text-sm text-ink-soft"><Link href="/" className="link-u">Главная</Link> / <span>Каталог</span></nav>
-        <h1 className="h2 mt-4 !text-[clamp(2.5rem,5.5vw,4.75rem)]">{title}</h1>
-        <p className="lead mt-4">Бриллианты в золоте трёх оттенков. Цены указаны в евро — это концептуальная коллекция демонстрационной версии сайта.</p>
+        <h1 className="h2 mt-3 !text-[clamp(2.25rem,4.6vw,3.75rem)]">{title}</h1>
+        <p className="lead mt-3 !text-base">Бриллианты в золоте трёх оттенков. Цены указаны в евро — это концептуальная коллекция демонстрационной версии сайта.</p>
       </header>
 
-      <div className="mt-10 flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-y hair py-3 lg:sticky lg:top-16 lg:z-20 lg:bg-milk/95 lg:backdrop-blur">
+      <div className="mt-7 flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-y hair py-3 lg:sticky lg:top-16 lg:z-20 lg:bg-milk/95 lg:backdrop-blur">
         <div className="contents sm:flex sm:items-center sm:gap-3">
           <button type="button" onClick={() => setOpen(true)} className="btn btn-line !min-h-11 !px-4 lg:hidden" aria-haspopup="dialog">
             <SlidersHorizontal size={16} /> Фильтры{chips.length ? ` (${chips.length})` : ""}
